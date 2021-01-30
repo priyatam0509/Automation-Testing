@@ -1,0 +1,6 @@
+{
+    "suite_name": "Outdoor EMV",
+    "suite_features": [
+        "TN823.py"
+    ]
+}

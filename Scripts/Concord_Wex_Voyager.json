@@ -1,0 +1,10 @@
+{
+    "suite_name": "Concord_Wex_Voyager",
+    "suite_features": [
+        "SL_1900.py",
+        "SL_1901.py",
+        "SL_1902.py",
+        "SL_1905.py",
+        "SL_1903_1.py"
+    ]
+}

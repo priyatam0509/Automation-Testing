@@ -1,0 +1,7 @@
+{
+    "suite_name": "CITGO Multi Dev work",
+    "suite_features": [
+        "PEACOCK_4159.py",
+        "PEACOCK_4161.py"
+    ]	
+}

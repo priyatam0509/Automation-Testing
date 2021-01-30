@@ -1,0 +1,36 @@
+{
+    "prerequisites": {
+		"1": "Conexxus mobile desktop simulator is installed in MWS (D:/Automation/tools/ConexxusMWS/ConexxusMobileSimulator.exe)",
+		"2": "Chevron network simulator is up and running with the below parameters(must): ",
+		"2.1": "TCP/IP Win socket port : 18100",
+		"2.2": "Split/Payment Pay Amount: 10000",
+		"3": "Restart the Chevron Network desktop simulator before running the suite.",
+		"4": "PDL Download was successful, before run the suite"
+	},
+	"suite_name": "Conexxus Mobile Payment Pay Inside for both versions",
+    "suite_features": [
+		"conexxus_mobile_v1_default.py",
+		"conexxus_mobile_check_sale.py",
+	    "conexxus_mobile_payment_sales.py",
+		"conexxus_mobile_fuel_disc.py",
+		"conexxus_mobile_payment_plus_sales.py",
+		"conexxus_mobile_v1_fuel_loyalty.py",
+		"conexxus_mobile_payment_plus_sales.py",
+		"conexxus_mobile_v1_trans_loyalty.py",
+		"conexxus_mobile_payment_plus_sales.py",
+		"conexxus_mobile_v1_card_trans.py",		
+		"conexxus_mobile_v2_default.py",
+        "conexxus_mobile_payment_sales.py",
+		"conexxus_mobile_fuel_disc.py",
+        "conexxus_mobile_payment_plus_sales.py",
+        "conexxus_mobile_v2_site_reward.py",
+		"conexxus_mobile_payment_sales.py",
+		"conexxus_mobile_fuel_disc.py",
+		"conexxus_mobile_payment_plus_sales.py",
+		"conexxus_mobile_v2_site_loyalty.py",
+		"conexxus_mobile_payment_sales.py",
+		"conexxus_mobile_fuel_disc.py",
+		"conexxus_mobile_payment_plus_sales.py",
+		"conexxus_mobile_v2_disable.py"
+    ]
+}

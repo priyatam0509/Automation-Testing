@@ -1,0 +1,14 @@
+{
+    "suite_name": "SelfCheckout_DigitalAdvertisement",
+    "suite_features": [
+        "DA_Verify_UI_Of_AdvertisementPage.py",
+		"DA_Verify_UI_Of_PinPadAdvertisement.py",
+        "DA_LoadMediaFileFromUSB.py",
+        "DA_DragAndDropMediaFilesForAdvertisement.py",
+		"DA_DragAndDropMediaFilesForPinPad.py",
+		"DA_VerifyHelpTextMessageForAdvertisementPage.py",
+		"DA_Verify_Validation_OnSaveAndExitButton.py",
+		"DA_SaveEditDataForAdvertisement.py",
+		"DA_SaveEditDataForPinpadAdvertisement.py"
+    ]
+}

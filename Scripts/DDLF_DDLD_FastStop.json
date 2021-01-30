@@ -1,0 +1,10 @@
+{
+    "suite_name": "DDLF and DDLD Verification for FastStop",
+    "suite_features": [
+        "PrePay_FastStop.py",
+        "Preset_PostPay_FastStop.py",
+        "PostPay_DDLD.py",
+        "PrePay_DDLD.py",
+        "DryStockWithTax_PostPay_FastStop.py"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "suite_name": "Concord_Fuel_Network_PDL",
+    "suite_features": [
+        "Concord_Fuel_Disc_Test.py",
+        "Concord_Network_Card_Test.py",
+        "Concord_PDL_Test.py"
+    ]
+}

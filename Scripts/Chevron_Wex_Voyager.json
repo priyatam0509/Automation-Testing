@@ -1,0 +1,11 @@
+{
+    "suite_name": "Chevron_Wex_Voyager",
+    "suite_features": [
+        "Chevron_PDL.py",
+        "Identify_WEX_1.py",
+        "Identify_WEX_2.py",
+        "Identify_Voyager.py",
+        "Chevron_WEX_EMV_Indoor.py",
+        "Chevron_Voyager_EMV_Indoor.py"
+    ]
+}

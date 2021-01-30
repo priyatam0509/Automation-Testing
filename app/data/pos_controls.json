@@ -1,0 +1,323 @@
+{
+    "header": {
+        "message": "//p[starts-with(@class, 'header_info_text')]",
+        "info": "//button[@id='information_button']",
+        "support": "//button[@id='support_button']",
+        "safe drop": "//button[@id='safeDropAlert_button']",
+        "transactions": "//button[@id='suspend_button']",
+        "datetime": "//div[@id='dateDiv']"
+    },
+
+    "information": {
+        "table": "//table[starts-with(@class, 'status_information_screen_table')]//tbody",
+        "column_1": "//table[starts-with(@class, 'status_information_screen_table')]//tbody//tr//td[1]",
+        "column_2": "//table[starts-with(@class, 'status_information_screen_table')]//tbody//tr//td[2]"
+    },
+
+    "network status": {
+        "list": "//div[starts-with(@class, 'networkstatusscreen mainpane')]//ul",
+        "items": "//div[starts-with(@class, 'networkstatusscreen mainpane')]//ul/li",
+        "status": "//div[starts-with(@class, 'networkstatusview')]//tbody"
+    },
+
+    "suspended transactions": {
+        "count": "//span[@id='suspendedTransactions']",
+        "transaction": "//div[@class='suspended_trans_table_item']",
+        "transaction_by_price": "//div[@class='suspended_trans_table_item']//div[text()='%s']"
+    },
+
+    "login": {
+        "1": "//button[@id='login_num1']",
+        "2": "//button[@id='login_num2']",
+        "3": "//button[@id='login_num3']",
+        "4": "//button[@id='login_num4']",
+        "5": "//button[@id='login_num5']",
+        "6": "//button[@id='login_num6']",
+        "7": "//button[@id='login_num7']",
+        "8": "//button[@id='login_num8']",
+        "9": "//button[@id='login_num9']",
+        "0": "//button[@id='login_num0']",
+        "cancel": "//button[@id='login_cancel']",
+        "enter": "//button[@id='login_enter']",
+        "display": "//div[@id='login_display']",
+        "display_error": "//div[@id='login_accessDenied']",
+        "keyboard": "//div[@class='login_alpha']"
+    },
+
+    "function keys": {
+        "price check": "//*[@data-autoid='FKey_14']",
+        "safe drop": "//*[@data-autoid='FKey_28']",
+        "loyalty status": "//*[@data-autoid='FKey_37']",
+        "no sale": "//*[@data-autoid='FKey_27']",
+        "refund": "//*[@data-autoid='FKey_29']",
+        "chg/ref due": "//*[@data-autoid='FKey_118']",
+        "dept keys": "//*[@data-autoid='FKey_92']",
+        "speed keys": "//*[@data-autoid='FKey_91']",
+        "time clock": "//*[@data-autoid='FKey_111']",
+        "paid in": "//*[@data-autoid='FKey_39']",
+        "loc acct paid in": "//*[@data-autoid='FKey_106']",
+        "paid out": "//*[@data-autoid='FKey_40']",
+        "loan": "//*[@data-autoid='FKey_30']",
+        "till audit": "//*[@data-autoid='FKey_119']",
+        "close till": "//*[@data-autoid='FKey_32']",
+        "receipt search": "//*[@data-autoid='FKey_38']",
+        "clean": "//*[@data-autoid='FKey_120']",
+        "sign-off": "//*[starts-with(@class, 'functionkey_container')][.//span[text()='Sign-off']]",
+        "lock": "//*[@data-autoid='FKey_31']",
+        "unlock": "//*[@data-autoid='FKey_142']",
+        "change password": "//*[@data-autoid='FKey_33']",
+        "change speedkeys": "//*[@data-autoid='FKey_121']",
+        "tank alarms": "//*[@data-autoid='FKey_34']",
+        "show all dispensers": "//*[@data-autoid='FKey_117']",
+        "dispenser menu": "//*[@data-autoid='FKey_122']",
+        "tools": "//*[@data-autoid='FKey_123']",
+        "reset password": "//*[@data-autoid='FKey_137']",
+        "override": "//*[@data-autoid='FKey_2']",
+        "discount": "//*[@data-autoid='FKey_45']",
+        "convert": "//*[@data-autoid='FKey_104']",
+        "void item": "//*[@data-autoid='FKey_0']",
+        "suspend transaction": "//*[@data-autoid='FKey_51']",
+        "change item qty": "//*[@data-autoid='FKey_3']",
+        "store coupon": "//*[@data-autoid='FKey_46']",
+        "void transaction": "//*[@data-autoid='FKey_1']",
+        "customer id": "//*[@data-autoid='FKey_105']",
+        "tax modify": "//*[@data-autoid='FKey_43']",
+        "pay": "//span[contains(text(), 'Pay')]/..",
+        "prepay": "//*[@data-autoid='FKey_6']",
+        "move prepay": "//*[@data-autoid='FKey_61']",
+        "preset": "//*[@data-autoid='FKey_42']",
+        "manual sale": "//*[@data-autoid='FKey_58']",
+        "clear errors": "//*[@data-autoid='FKey_26']",
+        "reports": "//*[@data-autoid='FKey_94']",
+        "stop": "//*[@data-autoid='FKey_60']",
+        "receipt": "//*[@data-autoid='FKey_59']",
+        "reset": "//*[@data-autoid='FKey_110']",
+        "void prepay": "//*[@data-autoid='FKey_69']",
+        "enable cash": "//*[@data-autoid='FKey_124']",
+        "pause alarm": "//*[@data-autoid='FKey_125']",
+        "back": "//*[starts-with(@class, 'functionkey_container')][.//span[text()='Back']]",
+        "sign on": "//*[@data-autoid='FKey_136']",
+        "bills ->": "//div[@class='preset_amount fixed_preset_amount selected']/button[//span[text()='Bills ->']]",
+        "coins ->": "//div[@class='preset_amount fixed_preset_amount selected']/button[//span[text()='Coins ->']]",
+        "manual": "//*[@data-autoid='FKey_50']",
+        "manual search": "//*[@data-autoid='FKey_145']",
+        "confirm": "//*[@data-autoid='FKey_107']",
+        "details": "//*[@data-autoid='FKey_108']",
+        "cancel": "//*[@data-autoid='FKey_5']",
+        "test fuel": "//*[@data-autoid='FKey_41']",
+        "dispenser options": "//*[@data-autoid='FKey_131']",
+        "fuel price change": "//*[@data-autoid='FKey_132']",
+        "attended options": "//*[@data-autoid='FKey_133']",
+        "dispenser totals": "//*[@data-autoid='FKey_134']",
+        "tank monitor": "//*[@data-autoid='FKey_135']",
+        "select terminal": "//*[@data-autoid='FKey_149']",
+        "select date": "//*[@data-autoid='FKey_148']",
+        "network": "//*[@data-autoid='FKey_97']",
+        "control console": "//*[@data-autoid='FKey_153']",
+        "tools keys": {
+            "store close": "//*[@data-autoid='FKey_35']",
+            "enable car wash": "//*[@data-autoid='FKey_127']",
+            "enable crind merch": "//*[@data-autoid='FKey_129']",
+            "manager workstation": "//*[@data-autoid='FKey_130']",
+            "shift close": "//*[@data-autoid='FKey_36']",
+            "reboot": "//*[@data-autoid='FKey_54']"
+        },
+        "network keys": {
+            "host function": "//*[@data-autoid='FKey_70']",
+            "balance inquiry": "//*[@data-autoid='FKey_71']",
+            "e-mail": "//*[@data-autoid='FKey_72']",
+            "de-activate card": "//*[@data-autoid='FKey_73']"
+        }
+    },
+
+    "pay": {
+        "type": "//div[@id='tenderkeys_container']//span[translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')='%s']/..",
+        "exact_amount": "//div[starts-with(@class, 'preset_amount exact')]/button",
+        "preset_amount": "//div[starts-with(@class, 'preset_amount  fixed')][//span[text()='%s']]/button"
+    },
+
+    "item keys": {
+        "key_by_text": "//div[@id='speedkeys_container']//div[translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz') = '%s']/..",
+        "key_by_position": "//div[@id='speed_key_%s']/.."
+    },
+
+    "prompt box": {
+        "header": "//span[@id='prompt_box_heading']",
+        "body": "//div[@id='prompt_box_text']",
+        "button": "//*[@id='prompt_box_buttons']/span/button",
+        "key_by_text": "//button[starts-with(@class, 'functionkey_button') and translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz') = '%s']",
+        "key 1": "(//div[@id='prompt_box_buttons']//button[starts-with(@class, 'functionkey_button')])[1]",
+        "key 2": "(//div[@id='prompt_box_buttons']//button[starts-with(@class, 'functionkey_button')])[2]",
+        "key 3": "(//div[@id='prompt_box_buttons']//button[starts-with(@class, 'functionkey_button')])[3]"
+    },
+
+    "keypad": {
+        "display": "//p[starts-with(@class, 'display_text')]",
+        "1": "//button[starts-with(@class, 'keypad_button') and @tag='1']",
+        "2": "//button[starts-with(@class, 'keypad_button') and @tag='2']",
+        "3": "//button[starts-with(@class, 'keypad_button') and @tag='3']",
+        "4": "//button[starts-with(@class, 'keypad_button') and @tag='4']",
+        "5": "//button[starts-with(@class, 'keypad_button') and @tag='5']",
+        "6": "//button[starts-with(@class, 'keypad_button') and @tag='6']",
+        "7": "//button[starts-with(@class, 'keypad_button') and @tag='7']",
+        "8": "//button[starts-with(@class, 'keypad_button') and @tag='8']",
+        "9": "//button[starts-with(@class, 'keypad_button') and @tag='9']",
+        "0": "//button[starts-with(@class, 'keypad_button') and @tag='0']",
+        "00": "//button[starts-with(@class, 'keypad_button') and @tag='00']",
+        "@": "//button[starts-with(@class, 'keypad_button') and @tag='at']",
+        "for": "//button[starts-with(@class, 'keypad_button') and @tag='for']",
+        "+": "//button[starts-with(@class, 'keypad_button') and @tag='plus']",
+        "-": "//button[starts-with(@class, 'keypad_button') and @tag='minus']",
+        "item": "//button[starts-with(@class, 'keypad_button') and @tag='item']",
+        "transaction": "//button[starts-with(@class, 'keypad_button') and @tag='trans']",
+        "cancel": "//button[starts-with(@class, 'keypad_button') and @tag='cancel']",
+        "clear": "//button[starts-with(@class, 'keypad_button') and @tag='clear']",
+        "enter": "//button[starts-with(@class, 'keypad_button') and @tag='enter']",
+        "finalize": "//button[starts-with(@class, 'keypad_button') and @tag='enter']",
+        "plu": "//button[starts-with(@class, 'keypad_button') and @tag='enter']",
+        "manual": "//button[starts-with(@class, 'keypad_button') and @tag='manual']"
+    },
+
+    "keyboard": {
+        "heading": "//div[@id='alphaprompt_box_heading']",
+        "prompt": "//div[@id='alphaprompt_box_text']",
+        "entry": "//span[@id='alphaprompt_input']",
+        "!": "//button[@tag='!']",
+        "@": "//button[@tag='@']",
+        "#": "//button[@tag='#']",
+        "$": "//button[@tag='$']",
+        "%": "//button[@tag='%']",
+        "^": "//button[@tag='^']",
+        "&": "//button[@tag='&']",
+        "*": "//button[@tag='*']",
+        "(": "//button[@tag='(']",
+        ")": "//button[@tag=')']",
+        "q": "//button[@id='keyboard_Q']",
+        "w": "//button[@id='keyboard_W']",
+        "e": "//button[@id='keyboard_E']",
+        "r": "//button[@id='keyboard_R']",
+        "t": "//button[@id='keyboard_T']",
+        "y": "//button[@id='keyboard_Y']",
+        "u": "//button[@id='keyboard_U']",
+        "i": "//button[@id='keyboard_I']",
+        "o": "//button[@id='keyboard_O']",
+        "p": "//button[@id='keyboard_P']",
+        "a": "//button[@id='keyboard_A']",
+        "s": "//button[@id='keyboard_S']",
+        "d": "//button[@id='keyboard_D']",
+        "f": "//button[@id='keyboard_F']",
+        "g": "//button[@id='keyboard_G']",
+        "h": "//button[@id='keyboard_H']",
+        "j": "//button[@id='keyboard_J']",
+        "k": "//button[@id='keyboard_K']",
+        "l": "//button[@id='keyboard_L']",
+        "\\": "//button[@tag='\\']",
+        "z": "//button[@id='keyboard_Z']",
+        "x": "//button[@id='keyboard_X']",
+        "c": "//button[@id='keyboard_C']",
+        "v": "//button[@id='keyboard_V']",
+        "b": "//button[@id='keyboard_B']",
+        "n": "//button[@id='keyboard_N']",
+        "m": "//button[@id='keyboard_M']",
+        "/": "//button[@tag='/']",
+        ":": "//button[@tag=':']",
+        ".": "//button[@tag='.']",
+        " ": "//button[@tag=' ']",
+        "space": "//button[@tag=' ']",
+        "shift": "//button[@tag='shift']",
+        "1": "//div[@id='numpad']//button[@tag='1']",
+        "2": "//div[@id='numpad']//button[@tag='2']",
+        "3": "//div[@id='numpad']//button[@tag='3']",
+        "4": "//div[@id='numpad']//button[@tag='4']",
+        "5": "//div[@id='numpad']//button[@tag='5']",
+        "6": "//div[@id='numpad']//button[@tag='6']",
+        "7": "//div[@id='numpad']//button[@tag='7']",
+        "8": "//div[@id='numpad']//button[@tag='8']",
+        "9": "//div[@id='numpad']//button[@tag='9']",
+        "0": "//div[@id='numpad']//button[@tag='0']",
+        "back": "//button[@tag='back']",
+        "clear": "//button[@id='keyboard_clear']",
+        "clr": "//button[@id='keyboard_clear']",
+        "cancel": "//button[@id='keyboard_cancel']",
+        "ok": "//button[@id='keyboard_ok']"
+    },
+
+    "receipt journal": {
+        "contents": "//div[@id='receipt_items']",
+        "lines": "//div[@id='receipt_items']//div[starts-with(@class, 'receipt_item_first_line')]",
+        "selected_line": "//div[@id='receipt_items']//div[starts-with(@class, 'selected')]//div[@class='receipt_item']",
+        "line_by_instance": "(//div[starts-with(@class, 'receipt_item_first_line')])[%s]",
+        "desc_by_instance": "(//div[starts-with(@class, 'receipt_item_desc')])[%s]",
+        "price_by_instance": "(//div[starts-with(@class, 'receipt_item_price')])[%s]",
+        "qty_by_instance": "(//div[starts-with(@class, 'receipt_item_qty wetstock')])[%s]",
+        "disc_by_instance": "(//div[starts-with(@class, 'receipt_item_discounts')])[%s]",
+        "line_by_text_and_instance": "(//div[@class='receipt_item'][.//div[translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')='%s']])[%s]",
+        "totals": "//div[starts-with(@class, 'receipt_totals')]",
+        "extra totals": "//div[@id='extra_receipt_totals']",
+        "watermark": "//div[contains(@id, 'watermark')]",
+        "quick_void": "//div[@id='receipt_items']//div[starts-with(@class, 'voidable selected')]//div[starts-with(@class, 'receipt_item_void')]"
+    },
+
+    "receipt search": {
+        "list": "//div[starts-with(@class, 'receipt_search_list_scroll')]",
+        "item": "//div[@class='receipt_search_table_item']",
+        "item_by_index": "(//div[@class='receipt_search_table_item'])[%s]",
+        "reprint": "//button[starts-with(@class, 'search_old_receipt_reprint')]",
+        "receipt": "//pre[@id='search_old_receipt_content']",
+        "down": "//div[starts-with(@class, 'scroll_arrow up')]",
+        "up": "//div[starts-with(@class, 'scroll_arrow down')]",
+        "date": "//input[@class='hasDatepicker']",
+        "registers": "//ul[@id='receipt_search_terminalpicker_registers']//li/span[contains(text(), %s')]",
+        "dispensers": "//ul[@id='receipt_search_terminalpicker_dispensers']//li/span[contains(text(), '%s')]",
+        "calendar elements": {
+            "title": "//div[starts-with(@class, 'ui-datepicker-title')]",
+            "prev": "//a[starts-with(@class, 'ui-datepicker-prev')]",
+            "next": "//a[starts-with(@class, 'ui-datepicker-next')]",
+            "date": "//td[@data-handler='selectDay']/a[contains(text(), '%s']"
+        }
+    },
+
+    "forecourt": {
+        "all stop": "//div[@id='dispenser_stop']/button",
+        "auth": "//div[@id='dispenser_auth']/button",
+        "dispenser status": "//div[starts-with(@class, 'dispenserdetailstatusbox')]/div",
+        "buffer a": "//div[starts-with(@class, 'dispenserdetailbufferAbox')]",
+        "buffer b": "//div[starts-with(@class, 'dispenserdetailbufferBbox')]",
+        "buffer commercial": "//div[starts-with(@class, 'dispenserdetailcommercialbufferbox')]",
+        "dispenser error": "//div[starts-with(@class, 'dispenserdetailerrortext')]",
+        "clear errors": "//div[starts-with(@class, 'dispenserdetailclearerror')]",
+        "current status icon": "//div[starts-with(@class, 'dispenserdetailstatus')]/div[@style='display: block']",
+        "dispenser": "(//div[starts-with(@class, 'dispenser_buffers_parent')])[%s]",
+        "status indicators": "//div[starts-with(@class, 'forecourt_navigator_item')]",
+        "status_indicator_by_id": "//div[@dispenserid='%s' and starts-with(@class, 'forecourt_navigator_item')]"
+    },
+
+    "pinpad": "//div[@class='pinpad']",
+
+    "payment_processing": {
+        "panel": "//div[@class='processing']",
+        "text": "//span[@id='processingtext']"
+    },
+
+    "selection list": {
+        "list": "//div[@id='selection_list_container']",
+        "option": "//div[starts-with(@class, 'selection_list_option') and translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')='%s']",
+        "options": "//div[starts-with(@class, 'selection_list_option')]"
+    },
+
+    "local accounts": {
+        "rows": "//div[starts-with(@class, 'local_acct_list_scroll')]//div[starts-with(@class, 'local_acct_table_item')]",
+        "subacct rows": "//div[starts-with(@class, 'sub_acct_list_scroll')]//div[starts-with(@class, 'sub_acct_table_item')]",
+        "header": "//div[starts-with(@class, 'local_acct_table_item local_acct_table_header')]",
+        "subacct header": "//div[starts-with(@class, 'sub_acct_table_item sub_acct_table_header')]",
+        "acct_by_text": "//div[starts-with(@class, 'local_acct_list_scroll')]//div[starts-with(@class, 'local_acct_table_item')]//div[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), '%s')]",
+        "subacct_by_text": "//div[starts-with(@class, 'sub_acct_list_scroll')]//div[starts-with(@class, 'sub_acct_table_item')]//div[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), '%s')]"
+    },
+
+    "show all dispensers": {
+        "back": "//div[@id='alldispensersback']",
+        "all stop": "//div[@id='alldispensersstop']"
+    },
+
+    "console": "//iframe[@id='cashier_control_console_iframe']"
+}

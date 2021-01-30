@@ -1,0 +1,8 @@
+{
+    "suite_name": "Framework Test",
+    "suite_features": [
+        "BasicTest.py",
+        "Car_Wash_Config.py",
+        "pos_pinpad_test.py"
+    ]
+}

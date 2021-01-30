@@ -1,0 +1,7 @@
+{
+    "suite_name": "Network Tests - Approval",
+    "suite_features": [
+        "Network_Transactions.py"
+    ],
+    "initial_setup": true
+}

@@ -1,0 +1,14 @@
+{
+    "suite_name": "Growmark MapChanges",
+    "initial_setup": true,
+    "suite_features": [
+        "PEACOCK_3934.py",
+        "PEACOCK_3989.py",
+        "PEACOCK_3935_1.py",
+        "PEACOCK_3935_2.py",
+        "PEACOCK_3994.py",
+        "PEACOCK_3995.py",
+        "PEACOCK_3988.py",
+        "PEACOCK_3930.py"
+    ]
+}

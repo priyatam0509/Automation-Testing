@@ -1,0 +1,16 @@
+{
+    "suite_name": "Self_Checkout",
+    "suite_features": [
+      "EL_PaymentTest.py",
+      "sco_transactions.py",
+      "ccc_void_item.py",
+      "ccc_cancel_key.py",
+      "ccc_authentication.py",
+      "ccc_suspend_transaction.py",
+      "qualified_items.py",
+      "express_lane_speedkey_setup.py",
+      "express_lane_age_verification.py",
+      "EL_BrandingImagesTest.py",
+      "express_personality.py"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "suite_name": "Multiple mobile payment",
+    "suite_features": [
+        "multi_mobile_payment_test.py",
+        "network_reports_test.py"      
+    ]
+    
+}

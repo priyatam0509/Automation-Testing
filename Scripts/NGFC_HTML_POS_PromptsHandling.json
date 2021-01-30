@@ -1,0 +1,9 @@
+{
+    "suite_name": "Commercial Diesel Regression on HTML POS: Different prompts handling",
+    "suite_features": [
+        "NGFC_setup.py",
+        "DODO_6107.py",
+        "DODO_6280.py",
+        "DODO_6280_Outside.py"
+    ]
+}

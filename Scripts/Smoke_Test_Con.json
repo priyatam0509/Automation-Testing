@@ -1,0 +1,8 @@
+{
+    "suite_name": "Concord Smoke Test - Passport",
+    "suite_features": [
+        "SmokeTest_MWS_Con.py",
+        "SmokeTest_POS_Con.py"
+    ],
+    "initial_setup": false
+}

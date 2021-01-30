@@ -1,0 +1,6 @@
+{
+    "suite_name": "Endurance_Test",
+    "suite_features": [
+        "endurance.py"
+    ]
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Results for version {{ version }}</title>
+  <style>
+    .Pass { background-color: #8FB9A8; color: #fff;}
+    .Fail { background-color: #F1828D; color: #fff;}
+    .Info { background-color: #568EA6; color: #fff;}
+    .Tests td {border: 1px dotted #323232;}
+    table { table-layout: fixed; width: 100%; }
+    td { word-wrap: break-word; }
+  </style>
+</head>
+<body>
+<TABLE class="Info" cellpadding="4" width="100%" style="border-collapse: collapse; text-align: center; table-layout: fixed;">
+<tr><td>{{title}}</td></tr>
+</table>
+<TABLE class="Tests" cellpadding="4" width="100%" style="border-collapse: collapse;table-layout: fixed;" id="tests">
+<COL width="5%">
+<COL width="15%">
+<COL width="20%">
+<COL width="35%">
+<COL width="10%">
+<COL width="15%">
+  <tr class="Info">
+    <td>#</td>
+    <td>Test Id</td>
+    <td>Script Name</td>
+    <td>Description</td>
+    <td>Result</td>
+    <td>Run Time</td>
+  </tr>
+{% for test in tests %}
+  <tr>
+    <td>{{loop.index}}</td>
+    <td>{{test['test_id']}}</td>
+    <td>{{test['script_name']}}</td>
+    <td>{{test['description']}}</td>
+    <td class="{{test['result']}}">{{test['result']}}</td>
+    <td>{{test['run_time']}}</td>
+  </tr>
+{% endfor %}
+</table>
+<TABLE cellpadding="4" width="100%" style="border: 1px solid #dddddd; text-align: left; padding: 8px; background-color: #d3d3d3;" border="1">
+  <TR><TD>Total Executed: {{pass + fail}}</TD></TR>
+  <TR><TD class="Passed">Total Passed: {{pass}}</TD></TR>
+  <TR><TD class="Failed">Total Failed: {{fail}}</TD></TR>
+  <TR><TD>Test Date: {{date}}</TD></TR>
+  <TR><TD>Test Run Time: {{runtime.strftime("%H:%M:%S")}}</TD></TR>
+  <TR><TD>Note: </TD></TR>
+  {% for note in notes %}
+  <tr><td>{{note}}</td></tr>
+  {% endfor %}
+</table>
+
+</body>
+</html>

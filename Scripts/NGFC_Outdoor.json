@@ -1,0 +1,6 @@
+{
+    "suite_name": "NGFC_Outdoor",
+    "suite_features": [
+        "TN-823.py"
+    ]
+}

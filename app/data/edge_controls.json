@@ -1,0 +1,295 @@
+{
+    "splash": "//img[starts-with(@class, 'splash_logo')]",
+
+    "menu bar": {
+        "support": "//button[@id='support_button']",
+        "information": "//button[@id='information_button']",
+        "network status": "//button[@id='networkStatus_indicator']",
+        "keypad": "//button[@id='showKeypad_button']",
+        "reload": "//button[@id='reload_button']",
+        "safe drop": "//button[@id='safeDropAlert_button']",
+        "transactions": "//button[@id='suspend_button']"
+    },
+
+    "information": {
+        "list": "//div[starts-with(@class, 'informationscreen mainpane')]//ul",
+        "items": "//div[starts-with(@class, 'informationscreen mainpane')]//ul/li"
+    },
+
+    "network status": {
+        "list": "//div[starts-with(@class, 'networkstatusscreen mainpane')]//ul",
+        "items": "//div[starts-with(@class, 'networkstatusscreen mainpane')]//ul/li"
+    },
+
+    "suspended transactions": {
+        "count": "//span[@id='suspendedTransactions']",
+        "transaction": "//div[@class='suspended_trans_table_item']",
+        "transaction_by_price": "//div[@class='suspended_trans_table_item']//div[text()='%s']"
+    },
+
+    "login": {
+        "1": "//button[@id='login_num1']",
+        "2": "//button[@id='login_num2']",
+        "3": "//button[@id='login_num3']",
+        "4": "//button[@id='login_num4']",
+        "5": "//button[@id='login_num5']",
+        "6": "//button[@id='login_num6']",
+        "7": "//button[@id='login_num7']",
+        "8": "//button[@id='login_num8']",
+        "9": "//button[@id='login_num9']",
+        "0": "//button[@id='login_num0']",
+        "cancel": "//button[@id='login_cancel']",
+        "enter": "//button[@id='login_enter']",
+        "display": "//div[@id='login_display']",
+        "display_error": "//div[@id='login_accessDenied']",
+        "keyboard": "//div[@class='login_alpha']"
+    },
+
+    "keyboard": {
+        "heading": "//div[@id='alphaprompt_box_heading']",
+        "prompt": "//div[@id='alphaprompt_box_text']",
+        "entry": "//span[@id='alphaprompt_input']",
+        "!": "//button[@tag='!']",
+        "@": "//button[@tag='@']",
+        "#": "//button[@tag='#']",
+        "$": "//button[@tag='$']",
+        "%": "//button[@tag='%']",
+        "^": "//button[@tag='^']",
+        "&": "//button[@tag='&']",
+        "*": "//button[@tag='*']",
+        "(": "//button[@tag='(']",
+        ")": "//button[@tag=')']",
+        "q": "//button[@id='keyboard_Q']",
+        "w": "//button[@id='keyboard_W']",
+        "e": "//button[@id='keyboard_E']",
+        "r": "//button[@id='keyboard_R']",
+        "t": "//button[@id='keyboard_T']",
+        "y": "//button[@id='keyboard_Y']",
+        "u": "//button[@id='keyboard_U']",
+        "i": "//button[@id='keyboard_I']",
+        "o": "//button[@id='keyboard_O']",
+        "p": "//button[@id='keyboard_P']",
+        "a": "//button[@id='keyboard_A']",
+        "s": "//button[@id='keyboard_S']",
+        "d": "//button[@id='keyboard_D']",
+        "f": "//button[@id='keyboard_F']",
+        "g": "//button[@id='keyboard_G']",
+        "h": "//button[@id='keyboard_H']",
+        "j": "//button[@id='keyboard_J']",
+        "k": "//button[@id='keyboard_K']",
+        "l": "//button[@id='keyboard_L']",
+        "\\": "//button[@tag='\\']",
+        "z": "//button[@id='keyboard_Z']",
+        "x": "//button[@id='keyboard_X']",
+        "c": "//button[@id='keyboard_C']",
+        "v": "//button[@id='keyboard_V']",
+        "b": "//button[@id='keyboard_B']",
+        "n": "//button[@id='keyboard_N']",
+        "m": "//button[@id='keyboard_M']",
+        "/": "//button[@tag='/']",
+        ":": "//button[@tag=':']",
+        ".": "//button[@tag='.']",
+        " ": "//button[@tag=' ']",
+        "space": "//button[@tag=' ']",
+        "1": "//div[@id='keyboard']//button[@tag='1']",
+        "2": "//div[@id='keyboard']//button[@tag='2']",
+        "3": "//div[@id='keyboard']//button[@tag='3']",
+        "4": "//div[@id='keyboard']//button[@tag='4']",
+        "5": "//div[@id='keyboard']//button[@tag='5']",
+        "6": "//div[@id='keyboard']//button[@tag='6']",
+        "7": "//div[@id='keyboard']//button[@tag='7']",
+        "8": "//div[@id='keyboard']//button[@tag='8']",
+        "9": "//div[@id='keyboard']//button[@tag='9']",
+        "0": "//div[@id='keyboard']//button[@tag='0']",
+        "00": "//div[@id='keyboard']//button[@tag='00']",
+        "back": "//button[@tag='back']",
+        "clear": "//button[@id='keyboard_clear']",
+        "clr": "//button[@id='keyboard_clear']",
+        "cancel": "//button[@id='keyboard_cancel']",
+        "ok": "//button[@id='keyboard_ok']"
+    },
+
+    "prompt box": {
+        "header": "//span[@id='prompt_box_heading']",
+        "body": "//div[@id='prompt_box_text']",
+        "keys": "//div[@id='prompt_box_buttons']//button[starts-with(@class, 'functionkey_button')]",
+        "key_by_text": "//button[starts-with(@class, 'functionkey_button') and translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz') = '%s']",
+        "key 1": "(//div[@id='prompt_box_buttons']//button[starts-with(@class, 'functionkey_button')])[1]",
+        "key 2": "(//div[@id='prompt_box_buttons']//button[starts-with(@class, 'functionkey_button')])[2]",
+        "key 3": "(//div[@id='prompt_box_buttons']//button[starts-with(@class, 'functionkey_button')])[3]"
+    },
+
+    "keypad": {
+        "prompt": "//p[starts-with(@class, 'display_caption_text')]",
+        "display": "//p[starts-with(@class, 'display_text')]",
+        "description": "//p[starts-with(@class, 'display_desc')]",
+        "preset_by_text": "//button[starts-with(@id, 'preset') and translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz') = '%s']",
+        "preset1": "//button[@id='preset1']",
+        "preset2": "//button[@id='preset2']",
+        "preset3": "//button[@id='preset3']",
+        "preset4": "//button[@id='preset4']",
+        "balance prepay": "//button[@id='backbutton']",
+        "1": "//div[@class='keypad']//button[@tag='1']",
+        "2": "//div[@class='keypad']//button[@tag='2']",
+        "3": "//div[@class='keypad']//button[@tag='3']",
+        "4": "//div[@class='keypad']//button[@tag='4']",
+        "5": "//div[@class='keypad']//button[@tag='5']",
+        "6": "//div[@class='keypad']//button[@tag='6']",
+        "7": "//div[@class='keypad']//button[@tag='7']",
+        "8": "//div[@class='keypad']//button[@tag='8']",
+        "9": "//div[@class='keypad']//button[@tag='9']",
+        "0": "//div[@class='keypad']//button[@tag='0']",
+        "00": "//div[@class='keypad']//button[@tag='00']",
+        "back": "//button[@id='backbutton']",
+        "clear": "//div[@class='keypad']//button[@tag='clear']",
+        "clr": "//div[@class='keypad']//button[@tag='clear']",
+        "cancel": "//div[@class='keypad']//button[@tag='cancel']",
+        "enter": "//div[@class='keypad']//button[@tag='enter']",
+        "default": "//button[@id='backbutton']"
+    },
+
+    "item keys": {
+        "key_by_text": "//div[@id='speedkeys_container']//div[translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz') = '%s']/..",
+        "key_by_position": "//div[@id='speed_key_%s']/.."
+    },
+
+    "function keys": {
+        "key_by_text": "//button[contains(@class, 'functionkey_button')]//span[translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz') = '%s']/..",
+        "selected_key": "//button[contains(@class, 'selected functionkey_button')]",
+        "re-map": {
+            "sign off": "Sign-off",
+            "override": "Change Item Price",
+            "quantity": "Change Item Qty",
+            "enable support": "Enable Remote Support",
+            "void trans": "Void Transaction",
+            "suspend": "Suspend Transaction",
+            "move": "Move Prepay"
+        },
+        "sidebar": [
+            "cashier",
+            "store",
+            "speed keys",
+            "dept keys",
+            "transaction",
+            "confirm",
+            "details",
+            "cancel",
+            "manual"
+        ],
+        "cashier": [
+            "safe drop",
+            "no sale",
+            "refund",
+            "sign-off",
+            "close till",
+            "change password",
+            "paid in",
+            "paid out",
+            "loc acct paid in",
+            "time clock",
+            "price check",
+            "cancel price check",
+            "loyalty status",
+            "receipt search"
+        ],
+        "store": [
+            "store close",
+            "host function",
+            "balance inquiry",
+            "e-mail",
+            "de-activate card",
+            "add item to pricebook"
+        ],
+        "support": [
+            "enable remote support",
+            "collect logs",
+            "restart tablet host",
+            "restart edh",
+            "reboot edh"
+        ],
+        "transaction": [
+            "void item",
+            "void transaction",
+            "change item price",
+            "price check",
+            "suspend transaction",
+            "change item qty",
+            "tax modify",
+            "customer od",
+            "more",
+            "less"
+        ],
+        "dispenser": [
+            "prepay",
+            "move prepay",
+            "preset",
+            "manual sale",
+            "stop",
+            "resume",
+            "receipt",
+            "reset",
+            "void prepay"
+        ]
+    },
+
+    "pay": {
+        "type": "//div[@id='tenderkeys_container']//span[translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')='%s']/..",
+        "exact_amount": "//div[starts-with(@class, 'preset_amount exact')]/button",
+        "preset_amount": "//div[starts-with(@class, 'preset_amount  fixed')]/button[text()='%s']"
+    },
+
+    "receipt journal": {
+        "contents": "//div[@id='receipt_items']",
+        "lines": "//div[@id='receipt_items']/div",
+        "desc_by_instance": "(//div[starts-with(@class, 'receipt_item_desc')])[%s]",
+        "price_by_instance": "(//div[starts-with(@class, 'receipt_item_price')])[%s]",
+        "qty_by_instance": "(//div[starts-with(@class, 'receipt_item_qty wetstock')])[%s]",
+        "disc_by_instance": "(//div[starts-with(@class, 'receipt_item_discounts')])[%s]",
+        "line_by_text_and_instance": "(//div[@id='receipt_line'][.//div[text()='%s']])[%s]",
+        "totals": "//div[starts-with(@class, 'receipt_totals')]",
+        "extra totals": "//div[@id='extra_receipt_totals']",
+        "watermark": "//div[contains(@id, 'watermark')]"
+    },
+
+    "receipt search": {
+        "list": "//div[starts-with(@class, 'receipt_search_list_scroll')]",
+        "item": "//div[@class='receipt_search_table_item']",
+        "item_by_index": "(//div[@class='receipt_search_table_item'])[%s]",
+        "reprint": "//button[starts-with(@class, 'search_old_receipt_reprint']",
+        "receipt": "//pre[@id='search_old_receipt_content']",
+        "down": "//div[starts-with(@class, 'scroll_arrow up')]",
+        "up": "//div[starts-with(@class, 'scroll_arrow down')]",
+        "date": "//input[@class='hasDatepicker']",
+        "terminal": "//button[@id='receipt_search_terminalpicker_button']",
+        "registers": "//ul[@id='receipt_search_terminalpicker_registers']//li/span[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), '%s')]",
+        "dispensers": "//ul[@id='receipt_search_terminalpicker_dispensers']//li/span[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), '%s')]",
+        "calendar": "//button[@id='receipt_search_datepicker_button']",
+        "calendar elements": {
+            "title": "//div[starts-with(@class, 'ui-datepicker-title')]",
+            "prev": "//a[starts-with(@class, 'ui-datepicker-prev')]",
+            "next": "//a[starts-with(@class, 'ui-datepicker-next']",
+            "date": "//td[@data-handler='selectDay']/a[contains(text(), '%s']"
+        }
+    },
+
+    "forecourt": {
+        "all stop": "//div[@id='dispenser_stop']/button",
+        "auth": "//div[@id='dispenser_auth']/button",
+        "dispenser status": "//div[starts-with(@class, 'dispenserdetailstatusbox')]/div",
+        "buffer a": "//div[starts-with(@class, 'dispenserdetailbufferAbox')]",
+        "buffer b": "//div[starts-with(@class, 'dispenserdetailbufferBbox')]",
+        "dispenser error": "//div[starts-with(@class, 'dispenserdetailerrortext')]",
+        "clear errors": "//div[starts-with(@class, 'dispenserdetailclearerror')]",
+        "current status icon": "//div[starts-with(@class, 'dispenserdetailstatus')]/div[@style='display: block']",
+        "dispenser": "//div[@class='dispenser'][.//span[contains(text(), '%s')]]"
+    },
+
+    "pinpad": "//div[@class='pinpad']",
+
+    "payment_processing": {
+        "panel": "//div[@class='processing']",
+        "text": "//span[@id='processingtext']"
+    },
+
+    "loading curtain": "//div[@class='curtain splashscreen']"
+}

@@ -1,0 +1,7 @@
+{
+    "suite_name": "Citgo_Bill_Network_Test",
+    "suite_features": [
+        "Citgo_Bill_Of_Lading_Test.py",
+        "Citgo_Network_Card_Test.py"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "suite_name": "Manage Employee from Insite360",
+    "suite_features": [
+		"IS360_UnRegister.py",
+	    "EmpMng_IS360_RestartSvc.py",
+		"EmpMng_IS360_SecurityGrp.py",
+        "EmpMng_IS360_Employee.py",
+		"EmpMng_IS360_ValidateFromI360.py",
+        "EmpMng_IS360_RestartSvc.py",
+        "EmpMng_IS360_SecurityGrp.py",
+		"EmpMng_IS360_Employee.py",
+		"IS360_UnRegister.py"
+    ]
+}

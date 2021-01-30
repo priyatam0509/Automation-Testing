@@ -1,0 +1,206 @@
+{
+    "Login": {
+        "Email": "username",
+        "Password": "password",
+        "LOG IN": "kc-login"
+    },
+	"Menu": "menu-profile",
+	"Logout": "logout-button",
+	"Security": {
+		"Question": "question",
+		"Answer": "response",
+		"Continue": "login-button"
+	},
+	"Store Options": {
+		"Store Name": "storeName",
+		"Options": "options",
+		"Options Text": "//*[@id='optionsMenu']",
+		"Search": "search",
+		"Clear": "clear"
+	},
+	"Employees": {
+		"Store Number": "//*[@id='paramSiteId']/div/input",
+		"Name": "paramName",
+		"Operator Id": "paramOperatorId",
+		"Security Group": "//*[@id='paramSecurityGroup']",
+		"Source": "paramEditSource",
+		"Search": "searchBtn",
+		"Clear": "clearBtn",
+		"Create New Employee": "newBtn",
+		"Display Records": "//*[@id='recordsFound']/span",
+		"Edit Details": "editBtn",
+		"De-activate": "deactivateBtn",
+		"Re-activate": "reactivateBtn",
+		"Process Duplicates": "processDuplicatesBtn",
+		"OK": "/html/body/modal-container/div/div/div/div/button[1]"
+	},
+	"Employee Edit": {
+		"First Name": {
+			"ID": "firstName",
+			"Type": "text"
+		},
+		"Last Name": {
+			"ID": "lastName",
+			"Type": "text"
+		},
+		"Operator Id": {
+			"ID": "operatorId",
+			"Type": "text"
+		},
+		"Birth Date": {
+			"ID": "birthDate",
+			"Type": "text"
+		},
+		"Address Line 1": {
+			"ID": "addressLine1",
+			"Type": "text"
+		},
+		"Address Line 2": {
+			"ID": "addressLine2",
+			"Type": "text"
+		},
+		"Address Line 3": {
+			"ID": "addressLine3",
+			"Type": "text"
+		},
+		"City": {
+			"ID": "city",
+			"Type": "text"
+		},
+		"State": {
+			"ID": "state",
+			"Type": "dropdown"
+		},
+		"Postal Code": {
+			"ID": "postal",
+			"Type": "text"
+		},
+		"Phone": {
+			"ID": "//*[@id='phoneNumber']/input",
+			"Type": "xpath"
+		},
+		"Security Group": {
+			"ID": "securityGroup",
+			"Type": "dropdown"
+		},
+		"Assigned Stores": {
+			"ID": "//*[@id='assignedStores']/div/input",
+			"Type": "textselect"
+		},
+		"Clock InOut Required": {
+			"ID": "clockInOutRequired",
+			"Type": "check"
+		},
+		"Override the Blind Balancing store option": {
+			"ID": "overrideBlindBalanceOption",
+			"Type": "check"
+		},
+		"View Total On Blind Balance": {
+			"ID": "viewTotalOnBlindBalance",
+			"Type": "dropdown"
+		},
+		"Language": {
+			"ID": "languageCode",
+			"Type": "dropdown"
+		},
+		"Theme": {
+			"ID": "theme",
+			"Type": "dropdown"
+		},
+		"Keypad Calculator": {
+			"ID": "radioKeypadCalculator",
+			"Type": "radio"
+		},
+		"Keypad Telephone": {
+			"ID": "radioKeypadTelephone",
+			"Type": "radio"
+		},
+		"Hand Preference Right": {
+			"ID": "radioHandRight",
+			"Type": "radio"
+		},
+		"Hand Preference Left": {
+			"ID": "radioHandLeft",
+			"Type": "radio"
+		},
+		"Assigned Stores List": "//*[@id='assignedStores']/div",
+		"Save": "saveBtn",
+		"Cancel": "cancelBtn",
+		"ErrorMsg": "//*[@id='toasty']/ng2-toast/div/div[2]/span[2]"
+	},
+	"Employee Values": {
+		"First Name": {
+			"Value1": "Auto",
+			"Value2": "Automation"
+		},
+		"Last Name": {
+			"Value1": "Manager",
+			"Value2": "Cashier"
+		},
+		"Birth Date": {
+			"Value1": "07-02-1982",
+			"Value2": "08-30-1982"
+		},
+		"Address Line 1": {
+			"Value1": "786 Fake Street",
+			"Value2": "123 Fake Street"
+		},
+		"Address Line 2": {
+			"Value1": "Bldg 1",
+			"Value2": "Bldg 37"
+		},
+		"Address Line 3": {
+			"Value1": "Suite 234",
+			"Value2": "Suite 420"
+		},
+		"City": {
+			"Value1": "Greensboro",
+			"Value2": "Greenville"
+		},
+		"State": {
+			"Value1": "NORTH CAROLINA",
+			"Value2": "SOUTH CAROLINA"
+		},
+		"Postal Code": {
+			"Value1": "27410",
+			"Value2": "29617"
+		},
+		"Phone": {
+			"Value1": "(897) 867-7737",
+			"Value2": "(982) 098-0870"
+		},
+		"Security Group": {
+			"Value1": "Manager",
+			"Value2": "Cashier"
+		},
+		"Clock InOut Required": {
+			"Value1": "True",
+			"Value2": "False"
+		},
+		"Override the Blind Balancing store option": {
+			"Value1": "True",
+			"Value2": "False"
+		},
+		"View Total On Blind Balance": {
+			"Value1": "Allowed",
+			"Value2": "Not Allowed"
+		},
+		"Language": {
+			"Value1": "US English",
+			"Value2": "French"
+		},
+		"Theme": {
+			"Value1": "Passport Retro",
+			"Value2": "Passport Modern"
+		},
+		"Keypad Calculator": {
+			"Value1": "True",
+			"Value2": "False"
+		},
+		"Hand Preference Right": {
+			"Value1": "True",
+			"Value2": "False"
+		}		
+	}
+
+}

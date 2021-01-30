@@ -1,0 +1,7 @@
+{
+    "suite_name": "Test suite",
+    "suite_features": [
+        "AnotherTest.py",
+        "GenericItemSale.py"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "suite_name": "Example Test Suite",
+    "suite_features": [
+        // When you want to run every @test in your script:
+        "FullScript.py",
+        // When you want to run a single @test from your script:
+        {"SingleTest.py":["Test1"]},
+        // When you want to include multiple @test's from your script:
+        {"MultiTest.py":["TestA","TestB","TestC"]}
+    ],
+    // Set this to true or false depending on whether you want initial setup to run with your suite
+    "initial_setup": true
+}

@@ -1,0 +1,6 @@
+{
+    "suite_name": "Dallas_Network_Cards",
+    "suite_features": [
+        "HPSDallas_Network_Card_Test.py"
+    ]
+}

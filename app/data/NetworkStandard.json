@@ -1,0 +1,241 @@
+{
+    "CONCORD":{
+        "Network Site Configuration":{
+            "Global Information":{
+                "Page 1":{
+                    "Merchant Number":"0005",
+                    "Station Name":"Gilbarco",
+                    "Station Address":"7300 W Friendly Ave",
+                    "Station City":"Gilbarco",
+                    "Station State":"NC",
+                    "Station Zip Code":"27410"
+                }
+            },
+            "Network Connection Options" : {
+                "Host IP Address" : "1.2.3.4",
+                "IP Port": "8085"
+            }
+        }
+    },
+    "EXXON":{
+        "Network Site Configuration":{
+            "Global Information":{
+                "Page 1":{
+                    "Merchant Number":"0005",
+                    "Station Name":"Gilbarco",
+                    "Station Address":"7300 W Friendly Ave",
+                    "Station City":"Gilbarco",
+                    "Station State":"NC",
+                    "Station Zip Code":"27410"
+                }
+            },
+            "Network Connection Options" : {
+                "Host IP Address" : "1.2.3.4",
+                "IP Port": "8085"
+            }
+        }
+    },
+    "HPS-DALLAS":{
+        "Global Info Editor":{
+            "Dealer":{
+                "Dealer Number":"99999999999",
+                "Terminal ID":"01",
+                "Company ID":"014"
+            },
+            "Site Information":{
+                "Name":"Gilbarco",
+                "Address":"7300 W Friendly Ave",
+                "City":"Greensboro",
+                "State":"NC",
+                "ZIP":"27410"
+            },
+            "Connection":{
+                "Page 1":{
+                    "Connection Type":"06 - TCP",
+                    "Primary IP Address":"1.2.3.4",
+                    "Primary IP Port":"8085"
+                }
+            }
+        }
+    },
+    "WORLDPAY":{
+        "Site Configuration":{
+            "Page 1":{
+                "Terminal Id":"542929803125772000088971"
+            }
+        },
+        "TCP/IP Configuration":{
+            "Primary Host IP Address":"1.2.3.4",
+            "Primary Host IP Port":"6662",
+            "Secondary Host IP Address":"1.2.3.4",
+            "Secondary Host IP Port":"6662",
+            "URL and IP Port":"https//1.2.3.4:6662",
+            "Enable SSL":"No"
+        }
+    },
+    "HPS-CHICAGO" : {
+        "Network Site Configuration" : {
+            "Merchant Configuration" : {
+                "Site Name" : "HPS-C Automation",
+                "Site Address" : "123 Somewhere St",
+                "Site City" : "Greensboro",
+                "Site State" : "NC",
+                "Site ZIP Code" : "27410",
+                "Site Phone Number" : "3365555555",
+                "Company ID" : "TESO",
+                "Terminal Location ID" : "1"
+            },
+            "TCP/IP Configuration" : {
+                "Primary Host Address" : "1.2.3.4",
+                "Primary TCP Port" : "8085",
+                "Secondary Host Address" : "1.2.3.4",
+                "Secondary TCP Port" : "8085",
+                "Tertiary Host Address" : "1.2.3.4",
+                "Tertiary TCP Port" : "8085",
+                "Use TLS" : "No"
+            }
+        }
+    },
+    "FASTSTOP":{
+        "Network Site Configuration":{
+            "Merchant Configuration":{
+                "Page 1":{
+                    "Site Name":"FastStop Automation",
+                    "Site Address":"123 Somewhere St",
+                    "Site City":"Greensboro",
+                    "Site State":"NC",
+                    "Site ZIP Code":"27410",
+                    "Site Phone Number":"3365555555",
+                    "Company ID":"TESO",
+                    "Terminal Location ID":"1"
+                }
+            },
+            "TCP/IP Configuration":{
+                "Primary Host Address":"1.2.3.4",
+                "Primary TCP Port":"8085",
+                "Secondary Host Address":"1.2.3.4",
+                "Secondary TCP Port":"8085",
+                "Tertiary Host Address":"1.2.3.4",
+                "Tertiary TCP Port":"8085",
+                "Use TLS":"No"
+            }
+        }
+    },
+    "CITGO":{
+        "Global Info Editor":{
+            "Dealer":{
+                "Dealer Number":"00111222333",
+                "Terminal ID":"01"
+            },
+            "Site Information":{
+                "Name":"Gilbarco",
+                "Address":"7300 W Friendly Ave",
+                "City":"Greensboro",
+                "State":"NC",
+                "ZIP":"27410"
+            },
+            "Connection":{
+                "Page 1":{
+                    "Connection Type":"06 - TCP",
+                    "Primary IP Address":"1.2.3.4",
+                    "Primary IP Port":"8085",
+                    "Secondary IP Address":"1.2.3.4",
+                    "Secondary IP Port":"8085",
+                    "Tertiary IP Address":"1.2.3.4",
+                    "Tertiary IP Port":"8085"
+                }
+            }
+        }
+    },
+    "PHILLIPS66":{
+        "Global Info Editor":{
+            "Dealer":{
+                "Dealer Number":"00066020001",
+                "Terminal ID":"21",
+                "Terminal Connection Type":"06 - TCP"
+            },
+            "Site Information":{
+                "Name":"Gilbarco",
+                "Address":"7300 W Friendly Ave",
+                "City":"Greensboro",
+                "State":"NC",
+                "ZIP":"27410"
+            },
+            "Connection":{
+                "Page 1":{
+                    "Primary IP Address":"1.2.3.4",
+                    "Primary IP Port":"8085",
+                    "Secondary IP Address":"1.2.3.4",
+                    "Secondary IP Port":"8085",
+                    "Tertiary IP Address":"1.2.3.4",
+                    "Tertiary IP Port":"8085"
+                }
+            }
+        }
+    },
+    "MARATHON":{
+        "Global Info Editor":{
+            "Dealer":{
+                "Dealer Number":"00111222333",
+                "Terminal ID":"01",
+                "Terminal Connection Type":"06 - TCP"
+            },
+            "Site Information":{
+                "Name":"Gilbarco",
+                "Address":"7300 W Friendly Ave",
+                "City":"Greensboro",
+                "State":"NC",
+                "ZIP":"27410"
+            },
+            "Connection":{
+                "Page 1":{
+                    "Primary IP Address":"1.2.3.4",
+                    "Primary IP Port":"8085",
+                    "Secondary IP Address":"1.2.3.4",
+                    "Secondary IP Port":"8085",
+                    "Tertiary IP Address":"1.2.3.4",
+                    "Tertiary IP Port":"8085"
+                }
+            }
+        }
+    },
+    "CHEVRON":{
+        "Network Site Configuration":{
+            "Global Information":{
+                "Station Name":"Gilbarco",
+                "Station Address":"7300 W Friendly Ave",
+                "Station City":"Gilbarco",
+                "Station State":"NC"
+            },
+            "Network Parameters":{
+                "Facility Number":"00123456",
+                "Security Authentication Code":"15171517",
+                "Administrative Password":"PASSPORT"
+            }
+        }
+    },
+    "NBS" : {
+        "Site Configuration": {
+            "Site Configuration" : {
+                "Page 1" : {
+                    "Terminal Id" : "GP1078444058701",
+                    "Site Name" : "Gilbarco",
+                    "Street Address" : "7300 W Friendly Ave",
+                    "City" : "Greensboro",
+                    "State" : "NC",
+                    "Zip Code" : "27410",
+                    "Connection Type" : "VSAT"
+                }                    
+            },
+            "VSAT Configuration" : {
+                "Primary Host IP Adress" : "10.5.48.6",
+                "Primary Host IP Port" : "5003",
+                "Secondary Host IP Address" : "10.5.48.6",
+                "Secondary Host IP Port" : "5003",
+                "Use TLS" : "No"
+            }
+
+        }
+        
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "suite_name": "SCO_Stress_Test",
+    "suite_features": [
+        "EL_StressTest.py"
+    ]
+}

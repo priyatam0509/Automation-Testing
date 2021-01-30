@@ -1,0 +1,11 @@
+{
+    "suite_name": "ASU Checklist",
+    "suite_features": [
+        "ASU_Mirroring.py",
+        "ASU_FileCleanup_MWS.py",
+        "ASU_FileCleanup_EDH.py",
+        "ASU_FileCleanup_CWS.py",
+        "ASU_LogFiles.py",
+        "ASU_VersionVerif.py"
+    ]
+}

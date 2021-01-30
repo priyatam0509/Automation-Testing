@@ -1,0 +1,12 @@
+{
+    "suite_name": "Configure Tax Rate from Insite360",
+    "suite_features": [
+		"TaxMng_IS360_Toggle.py",
+		"IS360_UnRegister.py",
+	    "TaxMng_IS360_RestartSvc.py",
+        "TaxMng_IS360_TaxRate.py",
+        "TaxMng_IS360_RestartSvc.py",
+		"TaxMng_IS360_TaxRate.py",
+		"IS360_UnRegister.py"
+    ]
+}

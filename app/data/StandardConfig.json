@@ -1,0 +1,109 @@
+{
+    "Employees":{
+        "1":{
+            "General":{
+                "First Name":"Auto",
+                "Last Name":"Cashier",
+                "Birth Date":"1/1/1990",
+                "Operator ID":"1",
+                "Address Line 1":"123 Fake Street",
+                "Address Line 2":"Bldg 1",
+                "Address Line 3":"Suite 234",
+                "City":"Greensboro",
+                "State":"NC",
+                "Postal Code":"27410",
+                "Telephone":"8001234567"
+            },
+            "Security":{
+                "Security Group":"Cashier"
+            },
+            "Preferences":{
+                "Language": "US English"
+            }
+        },
+        "2":{
+            "General":{
+                "First Name":"Auto",
+                "Last Name":"Supervison",
+                "Birth Date":"1/1/1985",
+                "Operator ID":"2",
+                "Address Line 1":"123 Fake Street",
+                "Address Line 2":"Bldg 1",
+                "Address Line 3":"Suite 234",
+                "City":"Greensboro",
+                "State":"NC",
+                "Postal Code":"27410",
+                "Telephone":"8001234567"
+            },
+            "Security":{
+                "Security Group":"Supervisor"
+            },
+            "Preferences":{
+                "Language":"US English"
+            }
+        }
+    },
+    "passport":{
+        "Manager":{
+            "Register Number":"1",
+            "Machine Name":"POSSERVER01",
+            "PIN Pad Type":"Verifone MX 915",
+            "Connection":"TCP/IP",
+            "IP Address":"1.2.3.4",
+            "Contactless":true,
+            "EMV Capable":true
+        }
+    },
+    "edge":{
+        "Manager":{
+            "Register Number":"1",
+            "Machine Name":"Tablet POS",
+            "Printer IP":"127.0.0.1",
+            "PIN Pad Type":"Verifone MX 915",
+            "Connection":"TCP/IP",
+            "IP Address":"1.2.3.4",
+            "Scanner Type":"TCP/IP Connection",
+            "Scanner IP":"127.0.0.1",
+            "Contactless":true,
+            "EMV Capable":true
+        }
+    },
+    "express":{
+        "Register Groups":{
+            "POSGroup2":{
+                "General":{
+                    "Name":"POSGroup2"
+                }
+            }
+        },
+        "Manager":{
+            "Register Number":"1",
+            "Machine Name":"POSSERVER01",
+            "Register Group":"POSGroup1",
+            "PIN Pad Type":"Verifone MX 915",
+            "Connection":"TCP/IP",
+            "IP Address":"1.2.3.4",
+            "Contactless":true,
+            "EMV Capable":true
+        },
+        "Clients":{
+            "1":{
+                "Register Number":"2",
+                "Machine Name":"POSCLIENT001",
+                "Register Group":"POSGroup2",
+                "Personality":"Express Lane",
+                "PIN Pad Type":"Verifone MX 915",
+                "Connection":"TCP/IP",
+                "IP Address":"4.3.2.1",
+                "Scanner Type":"TCP/IP Connection",
+                "Scanner IP":"10.5.48.2",
+                "Contactless":true,
+                "EMV Capable":true
+            }
+        }
+    },
+    "Dispensers":[
+        "MULTI_3",
+        "BLN_3+1"
+    ]
+}

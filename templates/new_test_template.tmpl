@@ -1,0 +1,48 @@
+"""
+    File name: $FILENAME.py
+    Tags:
+    Description: 
+    Author: 
+    Date created: $DATECREATED
+    Date last modified: 
+    Python Version: 3.7
+"""
+
+import logging
+from app import Navi, mws, pos, system
+from app.framework.tc_helpers import setup, test, teardown, tc_fail
+
+class $CLASSNAME():
+    """
+    Description: Test class that provides an interface for testing.
+    """
+
+    def __init__(self):
+        """
+        Initializes the Template class.
+        """
+        # The logging object. 
+        # Example: self.log.info(f"Current value of var: {my_var}")
+        self.log = logging.getLogger()
+
+    @setup
+    def setup(self):
+        """
+        Performs any initialization that is not default.
+        """
+        pass
+
+    @test
+    def test_case_1(self):
+        """
+        <Description here>
+        """
+        # delete pass after you implement.
+        pass
+
+    @teardown
+    def teardown(self):
+        """
+        Performs cleanup after this script ends.
+        """
+        pass

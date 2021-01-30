@@ -1,0 +1,6 @@
+{
+    "suite_name": "Logging test suite",
+    "suite_features": [
+        "LogTest.py"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "suite_name": "EBT_CahsAndFood",
+    "suite_features": [
+        "EBT_VerifyEBT_CashBack_Limit.py",
+		"EBT_AddEditEBTCashCard.py"
+    ],
+    "initial_setup": false
+}

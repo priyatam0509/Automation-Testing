@@ -1,0 +1,88 @@
+{
+    "Welcome": {
+        "Start": "//button[@id='start_button']",
+        "Message": "//span[@id='transaction_complete_text']"
+    },
+    "Speed Keys": {
+        "key_by_text": "//*[@id='speedkeys_container']//div[contains(text(), '<text>')]/../..",
+        "key_by_position": "//div[@id='speed_key_<position>']/../.."
+    },
+    "Function Keys": {
+        "Help": "//button[@id='help_button']",
+        "Pay": "//button[@id='pay_button']",
+        "Key In Code": "//button[@id='key_in_button']",
+        "Fuel": "//button[@id='fuel_button']"
+    },
+    "Payment Keys": {
+        "Back": "//button[@id='payment_back_button']",
+        "Help": "//button[@id='payment_help_button']"
+    },
+    "Card Processing": {
+        "PINPad Image": "//img[starts-with(@class, 'pinpad_image')]",
+        "Instructions": "//div[starts-with(@class, 'pinpad_instruction_message')]",
+        "Processing Text": "//span[@id='processingtext']"
+    },
+    "Fuel": {
+        "Back": "//button[@id='prepay_back']",
+        "prepay_dispenser_by_id": "//div[starts-with(@class, 'dispenser_id_text')][text()='%s']/..",
+        "postpay_by_id_and_instance": "//div[starts-with(@class, 'postpay_dispenser_id_text')][text()='%s'][%s]/.."
+    },
+    "Message Box": {
+        "Heading": "//span[@id='notification_box_heading']",
+        "Message": "//div[@id='notification_box_text']",
+        "function_key": "//div[@id='notification_box_buttons']//button[contains(text(), '<text>')]"
+    },
+    "Prompt Box": {
+        "Heading": "//span[starts-with(@class,'prompt_box_heading')]",
+        "Message": "//div[@id='prompt_box_text']",
+        "function_key": "//div[@id='prompt_box_buttons']//button[contains(text(), '<text>')]",
+        "Prepay": "//div[@id='prompt_box_buttons']//button[contains(text(), 'would like to prepay')]",
+        "Postpay": "//div[@id='prompt_box_buttons']//button[contains(text(), 'have already fueled')]"
+    },
+    "Qualifiers": {
+        "buttons": "//div[starts-with(@class, 'qualified_items_button_area')]//button",
+        "button_by_text": "//div[starts-with(@class, 'qualified_items_button_area')]//button[normalize-space()='%s']"
+    },
+    "Loyalty": {
+        "Enter ID": "//button[@id='enter_id_button']",
+        "Instructions": "//div[starts-with(@class, 'loyalty_pinpad_instruction_message')]",
+        "Processing Text": "//span[@id='loyalty_processingtext']"
+    },
+    "Keypad": {
+        "Display": "//p[starts-with(@class, 'display_text')]",
+        "1": "//button[@tag='1']",
+        "2": "//button[@tag='2']",
+        "3": "//button[@tag='3']",
+        "4": "//button[@tag='4']",
+        "5": "//button[@tag='5']",
+        "6": "//button[@tag='6']",
+        "7": "//button[@tag='7']",
+        "8": "//button[@tag='8']",
+        "9": "//button[@tag='9']",
+        "0": "//button[@tag='0']",
+        "00": "//button[@tag='00']",
+        "Back": "//button[@tag='back']",
+        "Clear": "//button[@tag='clear']",
+        "Cancel": "//button[@tag='cancel']",
+        "Enter": "//button[@tag='enter']"
+    },
+    "Help": {
+        "Request Assistance": "//button[@id='request_assistance_button']",
+        "Back": "//button[@id='help_back_button']",
+        "Weights and Measures": "//button[@id='weights_measures_button']"
+    },
+    "Weights and Measures": {
+        "Model # Header": "(//label[starts-with(@class, 'info_label')])[1]",
+        "Model #": "//div[@id='info_model']",
+        "Serial # Header": "(//label[starts-with(@class, 'info_label')])[2]",
+        "Serial #": "//div[@id='info_serial']",
+        "NTEP CC No. Header": "(//label[starts-with(@class, 'info_label')])[3]",
+        "NTEP CC No.": "//div[@id='info_nntp']",
+        "Back": "//button[@id='wm_back_button']"
+    },
+    "Receipt Journal": {
+        "Items": "//div[@id='receipt_items']",
+        "line": "(//div[@id='receipt_line'][.//div[contains(text(), '<text>')]])[<instance>]",
+        "Totals": "//div[starts-with(@class, 'receipt_totals')]"
+    }
+}

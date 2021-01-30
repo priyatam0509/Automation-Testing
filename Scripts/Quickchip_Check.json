@@ -1,0 +1,6 @@
+{
+    "suite_name": "Verify quickchip field",
+    "suite_features": [
+        "Quickchip_Test.py"
+    ]
+}

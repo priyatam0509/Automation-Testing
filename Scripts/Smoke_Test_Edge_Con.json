@@ -1,0 +1,8 @@
+{
+    "suite_name": "Concord Smoke Test - Edge",
+    "suite_features": [
+        "SmokeTest_MWS_Edge_Con.py",
+        "SmokeTest_POS_Edge_Con.py"
+    ],
+    "initial_setup" : false
+}

@@ -1,0 +1,15 @@
+{
+    "suite_name": "Software_Upgrade_Blocker",
+    "suite_features": [
+        "Hd_Passport_Activation.py",
+		"HD_Activation_Test.py",
+        "SWUpgrade_VerifyExpiryDate_OnFreshInstallation.py",
+        "SWUpgrade_ActivationTool_Verify_UI.py",
+        "SWUpgrade_ActivationTool_Verify_GilbarcoID.py",
+        "SWUpgrade_Validate_Generated_ApprovalCode.py",
+        "SWUpgrade_Validate_Default_GVR_ID.py",
+        "SWUpgrade_ActivationTool_UI_OnStore_Close.py",
+        "SWUpgrade_Activation_Tool_UI_ForHotFix.py"
+    ],
+    "initial_setup": false
+}

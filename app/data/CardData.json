@@ -1,0 +1,705 @@
+{
+	
+	"CORE" : {
+        "EMVVisaCredit": {
+            "Type": "EMV",
+            "Track1": null,
+            "Track2": "4761739001010036=30122011184435189",
+            "PaymentType": "Credit",
+            "AID": "A0000000031010",
+            "CVM": null
+        },
+        "EMVVisaUSDebit": {
+            "Type": "EMV",
+            "Track1": null,
+            "Track2": "4761739001010135=301220119559458",
+            "PaymentType": "Debit",
+            "AID": "A0000000980840",
+            "CVM": null
+        },
+		"EMVMCCredit" : {
+            "Type": "EMV",
+			"Track1" : null,
+			"Track2" : "5413330089000328=3012201073630857",
+			"PaymentType" : "Credit",
+			"AID": "A0000000041010",
+			"CVM" : null
+		},
+		"EMVMaestro" : {
+            "Type": "EMV",
+			"Track1" : null,
+			"Track2" : "5413330089099023=3012620062930423",
+			"PaymentType" : "Debit",
+			"AID" : "A0000000043060",
+			"CVM" : null
+		},
+		"EMVUSMaestro" : {
+            "Type": "EMV",
+			"Track1" : null,
+			"Track2" : "5413330089099023=3012620062930423",
+			"PaymentType" : "Debit",
+			"AID" : "A0000000042203",
+			"CVM" : null
+		},
+		"EMVDinersClub" : {
+            "Type": "EMV",
+			"Track1" : null,
+			"Track2" : "6510000000000125=30122011000087700000",
+			"PaymentType" : "Credit",
+			"AID" : "A0000001523010",
+			"CVM" : null
+		},
+		"EMVDiscoverUSDebit" : {
+            "Type": "EMV",
+			"Track1" : null,
+			"Track2" : "6011973700000005=30122011000055700000",
+			"PaymentType" : "Debit",
+			"AID" : "A0000001524010",
+			"CVM" : null
+		},
+		"EMVAmEx" : {
+            "Type": "EMV",
+			"Track1" : null,
+			"Track2" : "344546474849509=3012101991200000",
+			"PaymentType" : "Credit",
+			"AID" : "A00000002501",
+			"CVM" : null
+		},
+		"EMVVisaFleet_NoRestrictions_1" : {
+            "Type": "EMV",
+			"Track1" : null,
+			"Track2" : "4486116543219876=30122019206100000001",
+			"PaymentType": "Credit",
+			"AID" : "A0000000031010",
+			"Odometer": "1234",
+			"DriverID": "1234",
+			"EmployeeID" : "1234",
+			"CVM" : null
+		},
+		"EMVVisaFleet_NoRestrictions_2" : {
+            "Type": "EMV",
+			"Track1" : null,
+			"Track2" : "4486116543219876=30122019206100000002",
+			"PaymentType": "Credit",
+			"AID" : "A0000000031010",
+			"Odometer": "1234",
+			"VehicleID": "1234",
+			"CVM" : null
+		},
+		"EMVVisaFleet_NoRestrictions_3" : {
+            "Type": "EMV",
+			"Track1" : null,
+			"Track2" : "4486116543219876=30122019206100000003",
+			"PaymentType": "Credit",
+			"AID" : "A0000000031010",
+			"Odometer": "1234",
+			"DriverID": "1234",
+			"CVM" : null
+		},
+		"EMVVisaFleet_NoRestrictions_4" : {
+            "Type": "EMV",
+			"Track1" : null,
+			"Track2" : "4486116543219876=30122019206100000004",
+			"PaymentType": "Credit",
+			"AID" : "A0000000031010",
+			"Odometer": "1234",
+			"CVM" : null
+		},
+		"EMVVisaFleet_NoRestrictions_5" : {
+            "Type": "EMV",
+			"Track1" : null,
+			"Track2" : "4486116543219876=30122019206100000005",
+			"PaymentType": "Credit",
+			"AID" : "A0000000031010",
+			"CVM" : null
+		},
+		"EMVMCFleet_NoRestrictions_1" : {
+            "Type": "EMV",
+			"Track1" : null,
+			"Track2" : "5532310000000009=30052019998887777711",
+			"PaymentType" : "Credit",
+			"AID" : "A0000000041010",
+			"Odometer" : "1234",
+			"EmployeeID" : "1234",
+			"DriverID" : "1234",
+			"CVM" : null
+		},
+		"EMVMCFleet_NoRestrictions_2" : {
+            "Type": "EMV",
+			"Track1" : null,
+			"Track2" : "5532310000000009=30052019998887777712",
+			"PaymentType" : "Credit",
+			"AID" : "A0000000041010",
+			"Odometer" : "1234",
+			"VehicleID" : "1234",
+			"CVM" : null
+		},
+		"EMVMCFleet_NoRestrictions_3" : {
+            "Type": "EMV",
+			"Track1" : null,
+			"Track2" : "5532310000000009=30052019998887777713",
+			"PaymentType" : "Credit",
+			"AID" : "A0000000041010",
+			"Odometer" : "1234",
+			"DriverID" : "1234",
+			"CVM" : null
+		},
+		"EMVMCFleet_NoRestrictions_4" : {
+            "Type": "EMV",
+			"Track1" : null,
+			"Track2" : "5532310000000009=30052019998887777714",
+			"PaymentType" : "Credit",
+			"AID" : "A0000000041010",
+			"Odometer" : "1234",
+			"CVM" : null
+		},
+		"EMVMCFleet_NoRestrictions_5" : {
+            "Type": "EMV",
+			"Track1" : null,
+			"Track2" : "5532310000000009=30052019998887777715",
+			"PaymentType" : "Credit",
+			"AID" : "A0000000041010",
+			"CVM" : null
+		},
+
+        "Debit": {
+            "Type": "Magstripe",
+            "Track1": null,
+            "Track2": "5609800000000009165=3012001911",
+            "PaymentType": "Debit",
+            "PIN": "1234"
+        },
+		"Visa" : {
+            "Type": "Magstripe",
+			"Track1" : "B4012002000028021^VISA^30121011909779700000",
+			"Track2" : "4012002000028021=30121011909779700000",
+			"PaymentType" : "Credit"
+		},
+		"MasterCard" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "5100000000000008=3012101",
+			"PaymentType" : "Credit"
+		},
+		"Discover" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "6011000991400007=301210110000",
+			"PaymentType" : "Credit"
+		},
+		"DiscoverTrack1" : {
+            "Type": "Magstripe",
+			"Track1" : "B6011000991400007^DISCOVER^301210110000",
+			"Track2" : null,
+			"PaymentType" : "Credit"
+		},
+		"AmEx" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "344546474849509=3012101991200000",
+			"PaymentType" : "Credit"
+		},
+		"AmExTrack1Track2" : {
+            "Type": "Magstripe",
+			"Track1" : "B344546474849509^AMERICAN EXPRESS^3012101991200000",
+			"Track2" : "344546474849509=3012101991200000",
+			"PaymentType" : "Credit"
+		},
+		"VisaPurchase":{
+			"Type": "Magstripe",
+			"Track1":"B4485008888888889^PURCHASE^2012101180214180398",
+			"Track2":"4485008888888889=2012101180214180398",
+			"PaymentType":"Credit",
+			"CustomerCode":"1234"		
+		},
+		"VisaPurchaseTrack1":{
+			"Type": "Magstripe",
+			"Track1":"B4485008888888889^PURCHASE^2012101180214180398",
+			"Track2":null,
+			"PaymentType":"Credit",
+			"CustomerCode":"1234"
+		},
+		"MCPurchase":{
+			"Type": "Magstripe",
+			"Track1":"B5550000000000003^PURCHASE^30051019999",
+			"Track2":"5550000000000003=30051019999888877714",
+			"PaymentType":"Credit",
+			"CustomerCode":"1234"
+		},
+		"MCPurchaseTrack1":{
+			"Type": "Magstripe",
+			"Track1":"B5550000000000003^PURCHASE^30051019999",
+			"Track2":null,
+			"PaymentType":"Credit",
+			"CustomerCode":"1234"
+		},
+		"VisaFleet_NoRestrictions_1" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "4485532222222224=30121019206100000001",
+			"PaymentType" : "Credit",
+			"Odometer" : "1234",
+			"EmployeeID" : "1234",
+			"DriverID" : "1234"
+		},
+		"VisaFleet_NoRestrictions_2" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "4485532222222224=30121019206100000002",
+			"PaymentType" : "Credit",
+			"Odometer" : "1234",
+			"VehicleID" : "1234"
+		},
+		"VisaFleet_NoRestrictions_3" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "4485532222222224=30121019206100000003",
+			"PaymentType" : "Credit",
+			"Odometer" : "1234",
+			"DriverID" : "1234"
+		},
+		"VisaFleet_NoRestrictions_4" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "4485532222222224=30121019206100000004",
+			"PaymentType" : "Credit",
+			"Odometer" : "1234"
+		},
+		"VisaFleet_NoRestrictions_5" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "4485532222222224=30121019206100000005",
+			"PaymentType" : "Credit"
+		},
+		"MCFleet_FuelOnly_1" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "5567003333333332=30121019999888877721",
+			"PaymentType" : "Credit",
+			"Odometer" : "1234",
+			"EmployeeID" : "1234"
+		},
+		"MCFleet_FuelOnly_2" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "5567003333333332=30121019999888877722",
+			"PaymentType" : "Credit",
+			"Odometer" : "1234",
+			"VehicleID" : "1234"
+		},
+		"MCFleet_FuelOnly_3" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "5567003333333332=30121019999888877723",
+			"PaymentType" : "Credit",
+			"Odometer" : "1234",
+			"DriverID" : "1234"
+		},
+		"MCFleet_FuelOnly_4" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "5567003333333332=30121019999888877724",
+			"PaymentType" : "Credit",
+			"Odometer" : "1234"
+		},
+		"MCFleet_FuelOnly_5" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "5567003333333332=30121019999888877725",
+			"PaymentType" : "Credit"
+		},
+		"Expired_Visa" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "4012002000028021=10121011909779700000",
+			"PaymentType" : "Credit"
+		},
+		"Expired_MC" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "5100000000000008=1012101",
+			"PaymentType" : "Credit"
+		},
+		"Loyalty" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "6008030000014791736=00000000000000000",
+			"PaymentType" : "Credit"
+		},
+		"WEX1" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "6900460420001234566=30036011248100000",
+			"PaymentType" : "Credit"
+		},
+		"WEX2" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "6900460430001234566=20121000013100000",
+			"PaymentType" : "Credit",
+			"Odometer" : "1234",
+			"DriverID" : "1234"
+		},
+		"WEX1_EMV": {
+			"Type": "EMV",
+    		"Track1": null,
+    		"Track2": "6900460420001234566=30036011248120000",
+    		"PaymentType": "Credit",
+    		"AID": "A0000007681010",
+    		"CVM": null
+		},
+		"Voyager" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "7088859990012002574=30122000000000000",
+			"PaymentType" : "Credit",
+			"Odometer" : "1234"
+		},
+		"Voyager1_EMV" : {
+			"Type": "EMV",
+   			"Track1": null,
+    		"Track2": "7088869420240001394=23050000060100600",
+    		"PaymentType": "Credit",
+    		"AID": "A0000000041010",
+    		"CVM": null
+		},
+		"VisaFleet_FuelOnly_1": {
+			"Type": "Magstripe",
+			"Track1" : "B4485538888888885^VISA TEST CARD/GOOD^25121019206100000000025",
+			"Track2" : "4485538888888885=25121019206100000025",
+			"PaymentType" : "Credit"
+		},
+		"VisaFleet_FuelOnly_2": {
+			"Type": "Magstripe",
+			"Track1" : "B4485538888888885^VISA TEST CARD/GOOD^25121019206100000000021",
+			"Track2" : "4485538888888885=25121019206100000021",
+			"PaymentType" : "Credit",
+			"EmployeeID" : "1234",
+			"Odometer" : "1234"
+		},
+		"VisaFleet_FuelOnly_3": {
+			"Type": "Magstripe",
+			"Track1" : "B4485538888888885^VISA TEST CARD/GOOD^25121019206100000000022",
+			"Track2" : "4485538888888885=25121019206100000022",
+			"PaymentType" : "Credit",
+			"VehicleID" : "1234",
+			"Odometer" : "1234"
+		},
+		"VisaFleet_FuelOnly_4": {
+			"Type": "Magstripe",
+			"Track1" : "B4485538888888885^VISA TEST CARD/GOOD^25121019206100000000023",
+			"Track2" : "4485538888888885=25121019206100000023",
+			"PaymentType" : "Credit",
+			"DriverID" : "1234",
+			"Odometer" : "1234"
+		},
+		"VisaFleet_FuelOnly_5": {
+			"Type": "Magstripe",
+			"Track1" : "B4485538888888885^VISA TEST CARD/GOOD^25121019206100000000024",
+			"Track2" : "4485538888888885=25121019206100000024",
+			"PaymentType" : "Credit",
+			"Odometer" : "1234"
+		},
+		"MC_Fleet_NoRestrictions_1" : {
+			"Type": "Magstripe",
+			"Track1" : "B5569994444444448^TESTCARD/NUMBER5          ^2512101777766665555444433332115",
+			"Track2" : "5569994444444448=25121019999888877715",
+			"PaymentType": "Credit"
+		},
+		"MC_Fleet_NoRestrictions_2" : {
+			"Type": "Magstripe",
+			"Track1" : "B5569994444444448^TESTCARD/NUMBER5          ^2512101777766665555444433332111",
+			"Track2" : "5569994444444448=25121019999888877711",
+			"PaymentType": "Credit",
+			"EmployeeID" : "1234",
+			"Odometer" : "1234"
+		},
+		"MC_Fleet_NoRestrictions_3" : {
+			"Type": "Magstripe",
+			"Track1" : "B5569994444444448^TESTCARD/NUMBER5          ^2512101777766665555444433332112",
+			"Track2" : "5569994444444448=25121019999888877712",
+			"PaymentType": "Credit",
+			"VehicleID" : "1234",
+			"Odometer" : "1234"
+		},
+		"MC_Fleet_NoRestrictions_4" : {
+			"Type": "Magstripe",
+			"Track1" : "B5569994444444448^TESTCARD/NUMBER5          ^2512101777766665555444433332113",
+			"Track2" : "5569994444444448=25121019999888877713",
+			"PaymentType": "Credit",
+			"DriverID" : "1234",
+			"Odometer" : "1234"
+		},
+		"MC_Fleet_NoRestrictions_5" : {
+			"Type": "Magstripe",
+			"Track1" : "B5569994444444448^TESTCARD/NUMBER5          ^2512101777766665555444433332114",
+			"Track2" : "5569994444444448=25121019999888877714",
+			"PaymentType": "Credit",
+			"Odometer" : "1234"
+		},
+		"Fuelman" : {
+			"Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "70768599999999999=3012",
+			"PaymentType": "Credit",
+			"DriverID" : "1234",
+			"EmployeeID" : "1234",
+			"VehicleID" : "1234",
+			"Odometer" : "1234",
+			"PIN" : "11411"
+		},
+		"EBT" : {
+			"Type" : "Magstripe",
+			"Track1" : "B5623760000000005^EDWARD/QA^301210000001",
+			"Track2" : "5623760000000005=301210000001",
+			"PaymentType": "Credit"
+		}
+	},
+
+	"CONCORD" : {
+        "GiftCard": {
+            "Type": "Magstripe",
+            "Track1": "B6032250000760000012^TESTCARD^3012100876414",
+            "Track2": "6032250000760000012=3012100876414"
+        },
+        "GiftCard2": {
+            "Type": "Magstripe",
+            "Track1": null,
+            "Track2": "7000630219991022317=3012100876414"
+        }
+	},
+
+	"EXXON" : {
+		"GiftCard" : {
+            "Type": "Magstripe",
+			"Track1" : "B6006491112345678916^TESTCARD^3012100876414",
+			"Track2" : "6006491112345678916=3012100876414"
+		},
+		"Plenti" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "3104170412370124=10100000000000000000"
+		},
+		"Loyalty1" : {
+			"Track1" : null,
+			"Track2" : "6008030000014791736=00000000000000000"
+		},
+		"Loyalty2" : {
+			"Track1" : null,
+			"Track2" : "707929436662188828525=201210010"
+		},
+		"NGFC" : {
+			"Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "7071521933394400333=49121010000000100",
+			"PaymentType" : "Credit"
+		}
+	},
+
+	"MOBIL" : {
+		"GiftCard" : {
+            "Type": "Magstripe",
+			"Track1" : "B6006491112345678916^TESTCARD^3012100876414",
+			"Track2" : "6006491112345678916=3012100876414"
+		}
+	},
+
+	"VALERO" : {
+		"GiftCard" : {
+            "Type": "Magstripe",
+			"Track1" : "B6006491112345678916^TESTCARD^3012100876414",
+			"Track2" : "6006491112345678916=3012100876414"
+		},
+		"GiftCard2" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "7000630219991022317=3012100876414"
+		}
+	},
+		
+	"SUNOCO" : {
+		"GiftCard" : {
+            "Type": "Magstripe",
+			"Track1" : "B6006491112345678916^TESTCARD^3012100876414",
+			"Track2" : "6006491112345678916=3012100876414"
+		},
+		"GiftCard2" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "7000630219991022317=3012100876414"
+		}
+	},
+
+
+	"HPS-DALLAS" : {
+		"GiftCard" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "7083550045500219074=3012100876414"
+		}
+	},
+
+	"CITGO" : {
+		"GiftCard" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "6006491400007193690=301211090353642"
+		},
+		"GiftCard1" : {
+			"Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "7083550045500219074=3012100876414"
+		},
+		"Citgo_Rewards" : {
+			"Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "709900110001732025=251200000000000002"
+		},
+		"Citgo_Debit_Plus" : {
+			"Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "6394719999000001464=4912",
+			"PaymentType" : "Debit"
+		}
+	},
+
+	"PHILIPS66" : {
+		"GiftCard" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "6006490799999902765=301211014626061"
+		}
+	},
+
+	"MARATHON" : {
+		"GiftCard" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "7083550045500219074=301211014626061"
+		}
+	},
+
+	"HPS-CHICAGO" : {
+		"GiftCard" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "6006491286999997721=301211079071037"
+		},
+		"MCFleet_FuelOnly_1" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "5567003333333332=30121019999888877721",
+			"PaymentType" : "Credit",
+			"Odometer" : "1234",
+			"DriverID" : "1234"
+		},
+		"VisaFleet_FuelOnly_2": {
+			"Type": "Magstripe",
+			"Track1" : "B4485538888888885^VISA TEST CARD/GOOD^25121019206100000000021",
+			"Track2" : "4485538888888885=25121019206100000021",
+			"PaymentType" : "Credit",
+			"Odometer" : "1234",
+			"DriverID" : "1234"
+		},
+		"MC_Fleet_NoRestrictions_2" : {
+			"Type": "Magstripe",
+			"Track1" : "B5569994444444448^TESTCARD/NUMBER5          ^2512101777766665555444433332111",
+			"Track2" : "5569994444444448=25121019999888877711",
+			"PaymentType": "Credit",
+			"DriverID" : "1234",
+			"Odometer" : "1234"
+		}
+	},
+
+	"FASTSTOP" : {
+		"Fast Stop Commercial" : {
+			"Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "7803011234561231231=301277",
+			"PaymentType" : "Credit",
+			"Odometer" : "1234",
+			"DriverID" : "1234",			
+			"VehicleID" : "1234"
+		},
+		"Fast Stop Consumer" : {
+			"Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "7803021234561231231=301277",
+			"PaymentType" : "Credit",
+			"Odometer" : "1234",
+			"DriverID" : "1234",			
+			"VehicleID" : "1234"
+		},
+		"Debit" : {
+			"Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "560980000000000919=201200000000000000",
+			"PaymentType" : "Debit",
+			"PIN": "1234"
+		},
+		"EMVDiscoverUSDebit" : {
+            "Type": "EMV",
+			"Track1" : null,
+			"Track2" : "6510000000000216D23122011000005500000F",
+			"PaymentType" : "Debit",
+			"AID" : "A0000001523010",
+			"CVM" : null
+		}
+	},
+	"CHEVRON" : {
+		"WEX1_MSD" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "6900460420001234566=22121010598100000",
+			"Odometer" : "1234",
+			"DriverID" : "1234",			
+			"VehicleID" : "1234"
+		},
+		"WEX1_EMV" : {
+            "Type": "EMV",
+			"Track1" : null,
+			"Track2" : "6900460420001234566=22121010598120000",
+			"PaymentType": "Credit",
+			"AID": "A0000007681010",
+			"CVM": null,
+			"Odometer" : "1234",
+			"DriverID" : "1234",			
+			"VehicleID" : "1234",
+			"JobNumber" : "1234"
+		},
+		"WEX2_MSD" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "7071380420001234566=22121010598100000",
+			"Odometer" : "1234",
+			"DriverID" : "1234",			
+			"VehicleID" : "1234",
+			"JobNumber" : "1234"
+		},
+		"WEX2_EMV" : {
+            "Type": "EMV",
+			"Track1" : null,
+			"Track2" : "7071380420006149231=29051015106120000",
+			"PaymentType": "Credit",
+			"AID": "A0000007681010",
+			"CVM": null,
+			"Odometer" : "1234",
+			"DriverID" : "1234",			
+			"VehicleID" : "1234",
+			"JobNumber" : "1234"
+		},
+		"Voyager1_EMV" : {
+            "Type": "EMV",
+			"Track1" : null,
+			"Track2" : "7088869420240001394=23050000120100600",
+			"PaymentType": "Credit",
+			"AID": "A0000000041010",
+            "CVM": null
+		},
+		"Voyager1_MSD" : {
+            "Type": "Magstripe",
+			"Track1" : null,
+			"Track2" : "7088869420240001394=23050000130100600"
+		}
+	}	
+}

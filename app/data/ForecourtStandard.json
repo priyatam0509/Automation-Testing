@@ -1,0 +1,141 @@
+{
+    "Dispensers":{
+        "SINGLE":{
+            "Pure": 1
+        },
+        "MULTI_2":{
+            "Pure": 2
+        },
+        "MULTI_3":{
+            "Pure": 3
+        },
+        "MULTI_4":{
+            "Pure": 4
+        },
+        "BLN_3":{
+            "Blended": 3
+        },
+        "BLN_3+1":{
+            "Blended": 3,
+            "Pure": 1
+        },
+        "BLN_4":{
+            "Blended": 4
+        },
+        "BLN_4+1":{
+            "Blended": 4,
+            "Pure": 1
+        },
+        "BLN_5":{
+            "Blended": 5
+        },
+        "BLN_5+1":{
+            "Blended": 5,
+            "Pure": 1
+        },
+        "BLN_135":{
+            "Blended": 3
+        },
+        "BLN_135+1":{
+            "Blended": 3,
+            "Pure": 1
+        },
+        "BLN_3_FIXED":{
+            "Blended": 3
+        },
+        "BLN_3_11":{
+            "Blended": 3,
+            "Pure": 2
+        },
+        "BLN_32_3P":{
+            "Blended_1": 3,
+            "Blended_2": 2
+        },
+        "BLN_32_4P":{
+            "Blended_1": 3,
+            "Blended_2": 2
+        },
+        "UNIVERSAL":{
+        },
+        "CNG/LNG":{
+            "Pure": 1
+        }
+    },
+    "Grades":{
+        "Default":[
+            ["Regular","REG"],
+            ["Plus","PLS"],
+            ["Supreme","SUP"],
+            ["Diesel 1","DSL"],
+            ["Diesel 2","DS2"],
+            ["Desl Blnd","DSB"],
+            ["CNG","CNG"],
+            ["LPG","LPG"],
+            ["LNG","LNG"],
+            ["E85","E85"],
+            ["RD Dsl 1","RD1"],
+            ["RD Dsl 2","RD2"]
+        ],
+        "CHEVRON":[
+            ["UNLEAD REG","REG"],
+            ["UNLEAD PLS","PLS"],
+            ["UNL SUP US","SUP"],
+            ["UNL SUP CAN","SUC"],
+            ["REG DSL #2","DS1"],
+            ["SUP DSL #2","DS2"],
+            ["DIESEL #1","DS3"],
+            ["COM NAT GAS","CNG"],
+            ["PROPANE","PRO"],
+            ["LQD NAT GAS","LNG"],
+            ["E-85","E85"],
+            ["DIESEL NT","DN1"]
+        ],
+        "CONOCOPHILIPS":[
+            ["REGULAR","REG"],
+            ["PLUS","PLU"],
+            ["PREMIUM","PRE"],
+            ["PLUS 4","PL0"],
+            ["PLUS 5","PL1"],
+            ["REGULAR M5","RM5"],
+            ["PLUS M5","MM5"],
+            ["PREMIUM M5","PM5"],
+            ["REGULAR M7","RM7"],
+            ["PLUS M7","MM7"],
+            ["DIESEL 1","DS1"],
+            ["E85","E85"]
+        ]
+    },
+    "Standard Dispenser":{
+        "AutoOn":"false",
+        "BarCodeScannerInstalled": "false",
+        "CommercialDiesel": "false",
+        "EPPInstalled":"true",
+        "BillAcceptorInstalled":"false",
+        "DoorAlarmEnabled":"false",
+        "CATDevice":"0",
+        "CATLoop":"1",
+        "CrindInstalled":"true",
+        "DCB_Id":"0",
+        "ManufacturerName":"Gilbarco",
+        "Model":"GVR1",
+        "PumpProtocol": "GILBARCO_CRIND",
+        "ReeferEnabled": "false",
+        "Side":"SIDE_A",
+        "SpeedPass":"false",
+        "TerminalType":"GILBARCO_CRIND",
+        "Use_DSM":"false",
+        "UsesSPC":"false",
+        "WayneSlowDown":"0",
+        "UnitOfMeasure":"",
+        "LowVolumeLimit":"0",
+        "ShutOffVolumeLimit":"0"
+    },
+    "Standard Tank":{
+        "Capacity":"8000",
+        "Diameter":"5000",
+        "ManufacturerName":"Veeder-Root",
+        "Model":"VRMODEL",
+        "SPC_Id":"0",
+        "ManifoldGroupID":"0"
+    }
+}

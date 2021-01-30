@@ -1,0 +1,3034 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PassportDataMaintenance>
+   <Header>
+      <Date>2019/03/13</Date>
+      <Time>09:59:33</Time>
+      <Store>
+         <Name>Store Name</Name>
+      </Store>
+      <Passport>
+         <Version>99.99.24.01_DB1903121127</Version>
+      </Passport>
+      <ExtractionTool>
+         <Version>1.0.0</Version>
+      </ExtractionTool>
+   </Header>
+   <TaxMaintenance>
+      <PSTCaccadedOnGST>False</PSTCaccadedOnGST>
+      <TaxMaintenanceDetail>
+         <TaxStrategyID>99</TaxStrategyID>
+         <TaxDescription>No Tax</TaxDescription>
+         <TaxReceiptDescription>No Tax</TaxReceiptDescription>
+         <TaxPrintGroupCode>-1</TaxPrintGroupCode>
+         <TaxPrintReceiptIndicator />
+         <TaxPrintReceiptLegend />
+         <TaxLevelDetail>
+            <TaxLevelID>99</TaxLevelID>
+            <TaxDescription>No Tax</TaxDescription>
+            <TaxReceiptDescription>No Tax</TaxReceiptDescription>
+            <TaxRateType>0</TaxRateType>
+            <TaxTypeCode>1</TaxTypeCode>
+            <MinimumTaxableAmount>0</MinimumTaxableAmount>
+            <TaxRate>0</TaxRate>
+         </TaxLevelDetail>
+      </TaxMaintenanceDetail>
+      <TaxMaintenanceDetail>
+         <TaxStrategyID>101</TaxStrategyID>
+         <TaxDescription>Test Tax</TaxDescription>
+         <TaxReceiptDescription>Test Tax</TaxReceiptDescription>
+         <TaxPrintGroupCode>-1</TaxPrintGroupCode>
+         <TaxPrintReceiptIndicator />
+         <TaxPrintReceiptLegend />
+         <TaxLevelDetail>
+            <TaxLevelID>101</TaxLevelID>
+            <TaxDescription>Test Tax Rate</TaxDescription>
+            <TaxReceiptDescription>Test Tax</TaxReceiptDescription>
+            <TaxRateType>0</TaxRateType>
+            <TaxTypeCode>1</TaxTypeCode>
+            <MinimumTaxableAmount>0</MinimumTaxableAmount>
+            <TaxRate>0.1</TaxRate>
+         </TaxLevelDetail>
+      </TaxMaintenanceDetail>
+   </TaxMaintenance>
+   <FCInstallationMaintenance>
+      <ForecourtConfig>
+         <SiteBlended>true</SiteBlended>
+         <EMVEnabled>false</EMVEnabled>
+         <GSM_Used>true</GSM_Used>
+         <EnableRollbackTones>false</EnableRollbackTones>
+         <AllowExclusiveTax>false</AllowExclusiveTax>
+         <DispenserConfig>
+         </DispenserConfig>
+         <ProductConfig>
+         </ProductConfig>
+         <GradeConfig>
+         </GradeConfig>
+         <TankConfig>
+         </TankConfig>
+         <TankMonitorConfig />
+         <TankProbeConfig />
+         <KioskConfig>
+            <Kiosk ID="1">
+               <KioskType>1</KioskType>
+               <ManufacturerName>Unitec</ManufacturerName>
+               <Model>UTC</Model>
+               <SerialNo>UNI123</SerialNo>
+               <IPAddress>10.5.48.6</IPAddress>
+            </Kiosk>
+         </KioskConfig>
+      </ForecourtConfig>
+   </FCInstallationMaintenance>
+   <DiscountMaintenance>
+      <DiscountMaintenanceDetail>
+         <DiscountID>1</DiscountID>
+         <DiscountDescription languageCode="1" sequenceNumber="1">Std_Item_Pct</DiscountDescription>
+         <DiscountMethod>2</DiscountMethod>
+         <DiscountValue>0.1</DiscountValue>
+         <DiscountClass>1000</DiscountClass>
+         <DiscountMaxAmount>0</DiscountMaxAmount>
+         <DiscountMaxAmountOff>0</DiscountMaxAmountOff>
+         <DiscountMaxPercentOff>0</DiscountMaxPercentOff>
+         <NACSDiscountID>12</NACSDiscountID>
+         <DiscountAdjustTaxFlag>1</DiscountAdjustTaxFlag>
+         <WeekDayAvailability DayofWeek="Monday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Tuesday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Wednesday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Thursday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Friday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Saturday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Sunday">0</WeekDayAvailability>
+      </DiscountMaintenanceDetail>
+      <DiscountMaintenanceDetail>
+         <DiscountID>2</DiscountID>
+         <DiscountDescription languageCode="1" sequenceNumber="1">Std_Item_Amt</DiscountDescription>
+         <DiscountMethod>1</DiscountMethod>
+         <DiscountValue>1</DiscountValue>
+         <DiscountClass>1000</DiscountClass>
+         <DiscountMaxAmount>0</DiscountMaxAmount>
+         <DiscountMaxAmountOff>0</DiscountMaxAmountOff>
+         <DiscountMaxPercentOff>0</DiscountMaxPercentOff>
+         <NACSDiscountID>12</NACSDiscountID>
+         <DiscountAdjustTaxFlag>1</DiscountAdjustTaxFlag>
+         <WeekDayAvailability DayofWeek="Monday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Tuesday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Wednesday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Thursday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Friday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Saturday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Sunday">0</WeekDayAvailability>
+      </DiscountMaintenanceDetail>
+      <DiscountMaintenanceDetail>
+         <DiscountID>3</DiscountID>
+         <DiscountDescription languageCode="1" sequenceNumber="1">Std_Item_Price</DiscountDescription>
+         <DiscountMethod>6</DiscountMethod>
+         <DiscountValue>5</DiscountValue>
+         <DiscountClass>1000</DiscountClass>
+         <DiscountMaxAmount>0</DiscountMaxAmount>
+         <DiscountMaxAmountOff>0</DiscountMaxAmountOff>
+         <DiscountMaxPercentOff>0</DiscountMaxPercentOff>
+         <NACSDiscountID>12</NACSDiscountID>
+         <DiscountAdjustTaxFlag>1</DiscountAdjustTaxFlag>
+         <WeekDayAvailability DayofWeek="Monday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Tuesday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Wednesday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Thursday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Friday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Saturday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Sunday">0</WeekDayAvailability>
+      </DiscountMaintenanceDetail>
+      <DiscountMaintenanceDetail>
+         <DiscountID>4</DiscountID>
+         <DiscountDescription languageCode="1" sequenceNumber="1">Std_Item_Free</DiscountDescription>
+         <DiscountMethod>2</DiscountMethod>
+         <DiscountValue>1</DiscountValue>
+         <DiscountClass>1000</DiscountClass>
+         <DiscountMaxAmount>0</DiscountMaxAmount>
+         <DiscountMaxAmountOff>0</DiscountMaxAmountOff>
+         <DiscountMaxPercentOff>0</DiscountMaxPercentOff>
+         <NACSDiscountID>12</NACSDiscountID>
+         <DiscountAdjustTaxFlag>1</DiscountAdjustTaxFlag>
+         <WeekDayAvailability DayofWeek="Monday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Tuesday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Wednesday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Thursday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Friday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Saturday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Sunday">0</WeekDayAvailability>
+      </DiscountMaintenanceDetail>
+      <DiscountMaintenanceDetail>
+         <DiscountID>5</DiscountID>
+         <DiscountDescription languageCode="1" sequenceNumber="1">Std_Trans_Pct</DiscountDescription>
+         <DiscountMethod>14</DiscountMethod>
+         <DiscountValue>0.1</DiscountValue>
+         <DiscountClass>1000</DiscountClass>
+         <DiscountMaxAmount>0</DiscountMaxAmount>
+         <DiscountMaxAmountOff>0</DiscountMaxAmountOff>
+         <DiscountMaxPercentOff>0</DiscountMaxPercentOff>
+         <NACSDiscountID>12</NACSDiscountID>
+         <DiscountAdjustTaxFlag>1</DiscountAdjustTaxFlag>
+         <WeekDayAvailability DayofWeek="Monday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Tuesday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Wednesday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Thursday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Friday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Saturday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Sunday">0</WeekDayAvailability>
+      </DiscountMaintenanceDetail>
+      <DiscountMaintenanceDetail>
+         <DiscountID>6</DiscountID>
+         <DiscountDescription languageCode="1" sequenceNumber="1">Std_Trans_Amt</DiscountDescription>
+         <DiscountMethod>13</DiscountMethod>
+         <DiscountValue>1</DiscountValue>
+         <DiscountClass>1000</DiscountClass>
+         <DiscountMaxAmount>0</DiscountMaxAmount>
+         <DiscountMaxAmountOff>0</DiscountMaxAmountOff>
+         <DiscountMaxPercentOff>0</DiscountMaxPercentOff>
+         <NACSDiscountID>12</NACSDiscountID>
+         <DiscountAdjustTaxFlag>1</DiscountAdjustTaxFlag>
+         <WeekDayAvailability DayofWeek="Monday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Tuesday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Wednesday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Thursday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Friday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Saturday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Sunday">0</WeekDayAvailability>
+      </DiscountMaintenanceDetail>
+      <DiscountMaintenanceDetail>
+         <DiscountID>7</DiscountID>
+         <DiscountDescription languageCode="1" sequenceNumber="1">Var_Item_Pct</DiscountDescription>
+         <DiscountMethod>2</DiscountMethod>
+         <DiscountValue>0</DiscountValue>
+         <DiscountClass>1000</DiscountClass>
+         <DiscountMaxAmount>0</DiscountMaxAmount>
+         <DiscountMaxAmountOff>0</DiscountMaxAmountOff>
+         <DiscountMaxPercentOff>0.1</DiscountMaxPercentOff>
+         <NACSDiscountID>12</NACSDiscountID>
+         <DiscountAdjustTaxFlag>1</DiscountAdjustTaxFlag>
+         <WeekDayAvailability DayofWeek="Monday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Tuesday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Wednesday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Thursday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Friday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Saturday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Sunday">0</WeekDayAvailability>
+      </DiscountMaintenanceDetail>
+      <DiscountMaintenanceDetail>
+         <DiscountID>8</DiscountID>
+         <DiscountDescription languageCode="1" sequenceNumber="1">Var_Item_Amt</DiscountDescription>
+         <DiscountMethod>1</DiscountMethod>
+         <DiscountValue>0</DiscountValue>
+         <DiscountClass>1000</DiscountClass>
+         <DiscountMaxAmount>0</DiscountMaxAmount>
+         <DiscountMaxAmountOff>5</DiscountMaxAmountOff>
+         <DiscountMaxPercentOff>0</DiscountMaxPercentOff>
+         <NACSDiscountID>12</NACSDiscountID>
+         <DiscountAdjustTaxFlag>1</DiscountAdjustTaxFlag>
+         <WeekDayAvailability DayofWeek="Monday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Tuesday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Wednesday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Thursday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Friday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Saturday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Sunday">0</WeekDayAvailability>
+      </DiscountMaintenanceDetail>
+      <DiscountMaintenanceDetail>
+         <DiscountID>9</DiscountID>
+         <DiscountDescription languageCode="1" sequenceNumber="1">Var_Trans_Pct</DiscountDescription>
+         <DiscountMethod>14</DiscountMethod>
+         <DiscountValue>0</DiscountValue>
+         <DiscountClass>1000</DiscountClass>
+         <DiscountMaxAmount>0</DiscountMaxAmount>
+         <DiscountMaxAmountOff>0</DiscountMaxAmountOff>
+         <DiscountMaxPercentOff>0.1</DiscountMaxPercentOff>
+         <NACSDiscountID>12</NACSDiscountID>
+         <DiscountAdjustTaxFlag>1</DiscountAdjustTaxFlag>
+         <WeekDayAvailability DayofWeek="Monday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Tuesday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Wednesday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Thursday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Friday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Saturday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Sunday">0</WeekDayAvailability>
+      </DiscountMaintenanceDetail>
+      <DiscountMaintenanceDetail>
+         <DiscountID>10</DiscountID>
+         <DiscountDescription languageCode="1" sequenceNumber="1">Var_Trans_Amt</DiscountDescription>
+         <DiscountMethod>13</DiscountMethod>
+         <DiscountValue>0</DiscountValue>
+         <DiscountClass>1000</DiscountClass>
+         <DiscountMaxAmount>0</DiscountMaxAmount>
+         <DiscountMaxAmountOff>5</DiscountMaxAmountOff>
+         <DiscountMaxPercentOff>0</DiscountMaxPercentOff>
+         <NACSDiscountID>12</NACSDiscountID>
+         <DiscountAdjustTaxFlag>1</DiscountAdjustTaxFlag>
+         <WeekDayAvailability DayofWeek="Monday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Tuesday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Wednesday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Thursday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Friday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Saturday">0</WeekDayAvailability>
+         <WeekDayAvailability DayofWeek="Sunday">0</WeekDayAvailability>
+      </DiscountMaintenanceDetail>
+   </DiscountMaintenance>
+   <MerchandiseCodeMaintenance>
+      <TableAction type="update" />
+      <RecordAction type="addchange" />
+      <MCTDetail>
+         <RecordAction type="addchange" />
+         <MerchandiseCode>1</MerchandiseCode>
+         <ActiveFlag value="yes" />
+         <MerchandiseCodeDescription>Dept 1</MerchandiseCodeDescription>
+         <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+         <SalesRestriction>
+            <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+         </SalesRestriction>
+         <TaxStrategyID>99</TaxStrategyID>
+         <NegativeFlag value="no" />
+         <FoodstampableFlg>0</FoodstampableFlg>
+         <DiscountableFlg>0</DiscountableFlg>
+         <DepartmentKeyAtPOS>1</DepartmentKeyAtPOS>
+         <CouponKeyAtPOS>0</CouponKeyAtPOS>
+         <TillCloseReport>0</TillCloseReport>
+      </MCTDetail>
+      <MCTDetail>
+         <RecordAction type="addchange" />
+         <MerchandiseCode>2</MerchandiseCode>
+         <ActiveFlag value="yes" />
+         <MerchandiseCodeDescription>Dept 2</MerchandiseCodeDescription>
+         <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+         <SalesRestriction>
+            <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+         </SalesRestriction>
+         <TaxStrategyID>99</TaxStrategyID>
+         <NegativeFlag value="yes" />
+         <FoodstampableFlg>0</FoodstampableFlg>
+         <DiscountableFlg>0</DiscountableFlg>
+         <DepartmentKeyAtPOS>1</DepartmentKeyAtPOS>
+         <CouponKeyAtPOS>0</CouponKeyAtPOS>
+         <TillCloseReport>0</TillCloseReport>
+      </MCTDetail>
+      <MCTDetail>
+         <RecordAction type="addchange" />
+         <MerchandiseCode>3</MerchandiseCode>
+         <ActiveFlag value="yes" />
+         <MerchandiseCodeDescription>Dept 3</MerchandiseCodeDescription>
+         <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+         <SalesRestriction>
+            <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+         </SalesRestriction>
+         <TaxStrategyID>99</TaxStrategyID>
+         <NegativeFlag value="no" />
+         <FoodstampableFlg>0</FoodstampableFlg>
+         <DiscountableFlg>0</DiscountableFlg>
+         <DepartmentKeyAtPOS>1</DepartmentKeyAtPOS>
+         <CouponKeyAtPOS>0</CouponKeyAtPOS>
+         <TillCloseReport>0</TillCloseReport>
+      </MCTDetail>
+      <MCTDetail>
+         <RecordAction type="addchange" />
+         <MerchandiseCode>4</MerchandiseCode>
+         <ActiveFlag value="yes" />
+         <MerchandiseCodeDescription>Dept 4</MerchandiseCodeDescription>
+         <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+         <SalesRestriction>
+            <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+         </SalesRestriction>
+         <TaxStrategyID>99</TaxStrategyID>
+         <NegativeFlag value="no" />
+         <FoodstampableFlg>0</FoodstampableFlg>
+         <DiscountableFlg>0</DiscountableFlg>
+         <DepartmentKeyAtPOS>1</DepartmentKeyAtPOS>
+         <CouponKeyAtPOS>0</CouponKeyAtPOS>
+         <TillCloseReport>0</TillCloseReport>
+      </MCTDetail>
+      <MCTDetail>
+         <RecordAction type="addchange" />
+         <MerchandiseCode>5</MerchandiseCode>
+         <ActiveFlag value="yes" />
+         <MerchandiseCodeDescription>Dept 5</MerchandiseCodeDescription>
+         <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+         <SalesRestriction>
+            <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+         </SalesRestriction>
+         <TaxStrategyID>99</TaxStrategyID>
+         <NegativeFlag value="no" />
+         <FoodstampableFlg>0</FoodstampableFlg>
+         <DiscountableFlg>0</DiscountableFlg>
+         <DepartmentKeyAtPOS>1</DepartmentKeyAtPOS>
+         <CouponKeyAtPOS>0</CouponKeyAtPOS>
+         <TillCloseReport>0</TillCloseReport>
+      </MCTDetail>
+      <MCTDetail>
+         <RecordAction type="addchange" />
+         <MerchandiseCode>6</MerchandiseCode>
+         <ActiveFlag value="yes" />
+         <MerchandiseCodeDescription>Dept 6</MerchandiseCodeDescription>
+         <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+         <SalesRestriction>
+            <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+         </SalesRestriction>
+         <TaxStrategyID>99</TaxStrategyID>
+         <NegativeFlag value="no" />
+         <FoodstampableFlg>0</FoodstampableFlg>
+         <DiscountableFlg>0</DiscountableFlg>
+         <DepartmentKeyAtPOS>1</DepartmentKeyAtPOS>
+         <CouponKeyAtPOS>0</CouponKeyAtPOS>
+         <TillCloseReport>0</TillCloseReport>
+      </MCTDetail>
+      <MCTDetail>
+         <RecordAction type="addchange" />
+         <MerchandiseCode>7</MerchandiseCode>
+         <ActiveFlag value="yes" />
+         <MerchandiseCodeDescription>Dept 7</MerchandiseCodeDescription>
+         <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+         <SalesRestriction>
+            <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+         </SalesRestriction>
+         <TaxStrategyID>99</TaxStrategyID>
+         <NegativeFlag value="no" />
+         <FoodstampableFlg>0</FoodstampableFlg>
+         <DiscountableFlg>0</DiscountableFlg>
+         <DepartmentKeyAtPOS>1</DepartmentKeyAtPOS>
+         <CouponKeyAtPOS>0</CouponKeyAtPOS>
+         <TillCloseReport>0</TillCloseReport>
+      </MCTDetail>
+      <MCTDetail>
+         <RecordAction type="addchange" />
+         <MerchandiseCode>8</MerchandiseCode>
+         <ActiveFlag value="yes" />
+         <MerchandiseCodeDescription>Dept 8</MerchandiseCodeDescription>
+         <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+         <SalesRestriction>
+            <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+         </SalesRestriction>
+         <TaxStrategyID>99</TaxStrategyID>
+         <NegativeFlag value="no" />
+         <FoodstampableFlg>0</FoodstampableFlg>
+         <DiscountableFlg>0</DiscountableFlg>
+         <DepartmentKeyAtPOS>1</DepartmentKeyAtPOS>
+         <CouponKeyAtPOS>0</CouponKeyAtPOS>
+         <TillCloseReport>0</TillCloseReport>
+      </MCTDetail>
+      <MCTDetail>
+         <RecordAction type="addchange" />
+         <MerchandiseCode>9</MerchandiseCode>
+         <ActiveFlag value="yes" />
+         <MerchandiseCodeDescription>Dept 9</MerchandiseCodeDescription>
+         <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+         <SalesRestriction>
+            <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+         </SalesRestriction>
+         <TaxStrategyID>99</TaxStrategyID>
+         <NegativeFlag value="no" />
+         <FoodstampableFlg>0</FoodstampableFlg>
+         <DiscountableFlg>0</DiscountableFlg>
+         <DepartmentKeyAtPOS>1</DepartmentKeyAtPOS>
+         <CouponKeyAtPOS>0</CouponKeyAtPOS>
+         <TillCloseReport>0</TillCloseReport>
+      </MCTDetail>
+      <MCTDetail>
+         <RecordAction type="addchange" />
+         <MerchandiseCode>10</MerchandiseCode>
+         <ActiveFlag value="yes" />
+         <MerchandiseCodeDescription>Dept 10</MerchandiseCodeDescription>
+         <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+         <SalesRestriction>
+            <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+         </SalesRestriction>
+         <TaxStrategyID>99</TaxStrategyID>
+         <NegativeFlag value="no" />
+         <FoodstampableFlg>0</FoodstampableFlg>
+         <DiscountableFlg>0</DiscountableFlg>
+         <DepartmentKeyAtPOS>1</DepartmentKeyAtPOS>
+         <CouponKeyAtPOS>0</CouponKeyAtPOS>
+         <TillCloseReport>0</TillCloseReport>
+      </MCTDetail>
+      <MCTDetail>
+         <RecordAction type="addchange" />
+         <MerchandiseCode>11</MerchandiseCode>
+         <ActiveFlag value="yes" />
+         <MerchandiseCodeDescription>Dept 11</MerchandiseCodeDescription>
+         <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+         <SalesRestriction>
+            <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+         </SalesRestriction>
+         <TaxStrategyID>99</TaxStrategyID>
+         <NegativeFlag value="no" />
+         <FoodstampableFlg>0</FoodstampableFlg>
+         <DiscountableFlg>0</DiscountableFlg>
+         <DepartmentKeyAtPOS>1</DepartmentKeyAtPOS>
+         <CouponKeyAtPOS>0</CouponKeyAtPOS>
+         <TillCloseReport>0</TillCloseReport>
+      </MCTDetail>
+      <MCTDetail>
+         <RecordAction type="addchange" />
+         <MerchandiseCode>12</MerchandiseCode>
+         <ActiveFlag value="yes" />
+         <MerchandiseCodeDescription>Dept 12</MerchandiseCodeDescription>
+         <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+         <SalesRestriction>
+            <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+         </SalesRestriction>
+         <TaxStrategyID>99</TaxStrategyID>
+         <NegativeFlag value="no" />
+         <FoodstampableFlg>0</FoodstampableFlg>
+         <DiscountableFlg>0</DiscountableFlg>
+         <DepartmentKeyAtPOS>1</DepartmentKeyAtPOS>
+         <CouponKeyAtPOS>0</CouponKeyAtPOS>
+         <TillCloseReport>0</TillCloseReport>
+      </MCTDetail>
+      <MCTDetail>
+         <RecordAction type="addchange" />
+         <MerchandiseCode>13</MerchandiseCode>
+         <ActiveFlag value="yes" />
+         <MerchandiseCodeDescription>Dept 13</MerchandiseCodeDescription>
+         <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+         <SalesRestriction>
+            <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+         </SalesRestriction>
+         <TaxStrategyID>99</TaxStrategyID>
+         <NegativeFlag value="no" />
+         <FoodstampableFlg>0</FoodstampableFlg>
+         <DiscountableFlg>0</DiscountableFlg>
+         <DepartmentKeyAtPOS>1</DepartmentKeyAtPOS>
+         <CouponKeyAtPOS>0</CouponKeyAtPOS>
+         <TillCloseReport>0</TillCloseReport>
+      </MCTDetail>
+      <MCTDetail>
+         <RecordAction type="addchange" />
+         <MerchandiseCode>14</MerchandiseCode>
+         <ActiveFlag value="yes" />
+         <MerchandiseCodeDescription>Dept 14</MerchandiseCodeDescription>
+         <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+         <SalesRestriction>
+            <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+         </SalesRestriction>
+         <TaxStrategyID>99</TaxStrategyID>
+         <NegativeFlag value="no" />
+         <FoodstampableFlg>0</FoodstampableFlg>
+         <DiscountableFlg>0</DiscountableFlg>
+         <DepartmentKeyAtPOS>1</DepartmentKeyAtPOS>
+         <CouponKeyAtPOS>0</CouponKeyAtPOS>
+         <TillCloseReport>0</TillCloseReport>
+      </MCTDetail>
+      <MCTDetail>
+         <RecordAction type="addchange" />
+         <MerchandiseCode>15</MerchandiseCode>
+         <ActiveFlag value="yes" />
+         <MerchandiseCodeDescription>Dept 15</MerchandiseCodeDescription>
+         <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+         <SalesRestriction>
+            <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+         </SalesRestriction>
+         <TaxStrategyID>99</TaxStrategyID>
+         <NegativeFlag value="no" />
+         <FoodstampableFlg>0</FoodstampableFlg>
+         <DiscountableFlg>0</DiscountableFlg>
+         <DepartmentKeyAtPOS>1</DepartmentKeyAtPOS>
+         <CouponKeyAtPOS>0</CouponKeyAtPOS>
+         <TillCloseReport>0</TillCloseReport>
+      </MCTDetail>
+      <MCTDetail>
+         <RecordAction type="addchange" />
+         <MerchandiseCode>16</MerchandiseCode>
+         <ActiveFlag value="yes" />
+         <MerchandiseCodeDescription>Dept 16</MerchandiseCodeDescription>
+         <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+         <SalesRestriction>
+            <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+         </SalesRestriction>
+         <TaxStrategyID>99</TaxStrategyID>
+         <NegativeFlag value="no" />
+         <FoodstampableFlg>0</FoodstampableFlg>
+         <DiscountableFlg>0</DiscountableFlg>
+         <DepartmentKeyAtPOS>1</DepartmentKeyAtPOS>
+         <CouponKeyAtPOS>0</CouponKeyAtPOS>
+         <TillCloseReport>0</TillCloseReport>
+      </MCTDetail>
+   </MerchandiseCodeMaintenance>
+   <ReasonCodeMaintenance>
+      <ReasonCodeMaintenanceDetail>
+         <ReasonCodeID>1</ReasonCodeID>
+         <ReasonCodeDescription languageCode="1" sequenceNumber="1">Get Change</ReasonCodeDescription>
+      </ReasonCodeMaintenanceDetail>
+      <ReasonCodeMaintenanceDetail>
+         <ReasonCodeID>2</ReasonCodeID>
+         <ReasonCodeDescription languageCode="1" sequenceNumber="1">Customer changed mind/left</ReasonCodeDescription>
+      </ReasonCodeMaintenanceDetail>
+      <ReasonCodeMaintenanceDetail>
+         <ReasonCodeID>3</ReasonCodeID>
+         <ReasonCodeDescription languageCode="1" sequenceNumber="1">Cashier error</ReasonCodeDescription>
+      </ReasonCodeMaintenanceDetail>
+   </ReasonCodeMaintenance>
+   <ItemMaintenance>
+      <TableAction type="initialize" />
+      <RecordAction type="addchange" />
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>001</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>0</RegularSellPrice>
+            <Description>Item 1</Description>
+            <ItemID>001</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="yes" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="yes" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>002</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>5</RegularSellPrice>
+            <Description>Item 2</Description>
+            <ItemID>002</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>003</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>15</RegularSellPrice>
+            <RegularPackageSellPrice pkgQuantity="3">45</RegularPackageSellPrice>
+            <Description>Item 3</Description>
+            <ItemID>003</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>004</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>3</RegularSellPrice>
+            <Description>Item 4</Description>
+            <ItemID>004</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>005</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>2</RegularSellPrice>
+            <Description>Item 5</Description>
+            <ItemID>005</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>006</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>5</RegularSellPrice>
+            <RegularPackageSellPrice pkgQuantity="2">10</RegularPackageSellPrice>
+            <Description>Item 6</Description>
+            <ItemID>006</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>007</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>5</RegularSellPrice>
+            <Description>Item 7</Description>
+            <ItemID>007</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="no" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="yes" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>008</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>5</RegularSellPrice>
+            <Description>Item 8</Description>
+            <ItemID>008</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="no" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="yes" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>009</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>5</RegularSellPrice>
+            <Description>Item 9</Description>
+            <ItemID>009</ItemID>
+            <ItemType>
+               <ItemTypeCode>fees</ItemTypeCode>
+               <ItemTypeSubCode>fees</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>010</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>5</RegularSellPrice>
+            <Description>Item 10</Description>
+            <ItemID>010</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="yes" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>011</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>5</RegularSellPrice>
+            <Description>Item 11</Description>
+            <ItemID>011</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="yes" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="yes" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>012</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>5</RegularSellPrice>
+            <Description>Item 12</Description>
+            <ItemID>012</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="yes" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>013</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>5</RegularSellPrice>
+            <Description>Item 13</Description>
+            <ItemID>013</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="no" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="no" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+        <RecordAction type="addchange"/>
+        <ItemCode>
+          <POSCodeFormat format="plu"/>
+          <POSCode>015</POSCode>
+          <POSCodeModifier>0</POSCodeModifier>
+        </ItemCode>
+        <ITTData>
+          <ActiveFlag value="yes"/>
+          <MerchandiseCode>1</MerchandiseCode>
+          <RegularSellPrice>1.00</RegularSellPrice>
+          <Description>Linked Item 2</Description>
+          <ItemID>015</ItemID>
+          <ItemType>
+            <ItemTypeCode>mdse</ItemTypeCode>
+            <ItemTypeSubCode>mdse</ItemTypeSubCode>
+          </ItemType>
+          <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+          <SalesRestriction>
+            <SalesRestrictFlag value="no" type="allowFractionalQuantity"/>
+            <SalesRestrictFlag value="yes" type="allowQuantity"/>
+            <SalesRestrictFlag value="no" type="forcePriceEntry"/>
+            <SalesRestrictFlag value="yes" type="prohibitFoodStamp"/>
+            <SalesRestrictFlag value="no" type="prohibitRefund"/>
+            <ProhibitDiscountFlag value="yes"/>
+          </SalesRestriction>
+          <SellingUnits>1</SellingUnits>
+          <TaxStrategyID>99</TaxStrategyID>
+          <PriceRequiredFlg value="no"/>
+          <PricingGroup>0</PricingGroup>
+          <FoodStampableFlg value="no"/>
+          <DiscountableFlg value="no"/>
+          <QuantityAllowedFlg value="yes"/>
+          <QuantityRequiredFlg value="no"/>
+        </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+        <RecordAction type="addchange"/>
+        <ItemCode>
+          <POSCodeFormat format="plu"/>
+          <POSCode>014</POSCode>
+          <POSCodeModifier>0</POSCodeModifier>
+        </ItemCode>
+        <ITTData>
+          <ActiveFlag value="yes"/>
+          <MerchandiseCode>1</MerchandiseCode>
+          <RegularSellPrice>1.00</RegularSellPrice>
+          <Description>Linked Item 1</Description>
+          <ItemID>014</ItemID>
+          <ItemType>
+            <ItemTypeCode>mdse</ItemTypeCode>
+            <ItemTypeSubCode>mdse</ItemTypeSubCode>
+          </ItemType>
+          <LinkCode type="0">015</LinkCode>
+          <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+          <SalesRestriction>
+            <SalesRestrictFlag value="no" type="allowFractionalQuantity"/>
+            <SalesRestrictFlag value="yes" type="allowQuantity"/>
+            <SalesRestrictFlag value="no" type="forcePriceEntry"/>
+            <SalesRestrictFlag value="yes" type="prohibitFoodStamp"/>
+            <SalesRestrictFlag value="no" type="prohibitRefund"/>
+            <ProhibitDiscountFlag value="yes"/>
+          </SalesRestriction>
+          <SellingUnits>1</SellingUnits>
+          <TaxStrategyID>99</TaxStrategyID>
+          <PriceRequiredFlg value="no"/>
+          <PricingGroup>0</PricingGroup>
+          <FoodStampableFlg value="no"/>
+          <DiscountableFlg value="no"/>
+          <QuantityAllowedFlg value="yes"/>
+          <QuantityRequiredFlg value="no"/>
+        </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>020</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>1</RegularSellPrice>
+            <Description>Must be 18</Description>
+            <ItemID>020</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+               <MinimumCustomerAge>1001</MinimumCustomerAge>
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>021</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>2</RegularSellPrice>
+            <Description>Must be 19</Description>
+            <ItemID>021</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+               <MinimumCustomerAge>1003</MinimumCustomerAge>
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>022</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>1</RegularSellPrice>
+            <Description>Must be 21</Description>
+            <ItemID>022</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+               <MinimumCustomerAge>1002</MinimumCustomerAge>
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>030</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>5</RegularSellPrice>
+            <Description>Qual 1</Description>
+            <ItemID>030</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>030</POSCode>
+            <POSCodeModifier name="Test Type">1</POSCodeModifier>
+            <InventoryItemID />
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>10</RegularSellPrice>
+            <Description>Qualifier 1</Description>
+            <ItemID>030</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="yes" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>031</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>5</RegularSellPrice>
+            <Description>Qual 2</Description>
+            <ItemID>031</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>031</POSCode>
+            <POSCodeModifier name="Test Type">1</POSCodeModifier>
+            <InventoryItemID />
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>10</RegularSellPrice>
+            <Description>Qualifier 2</Description>
+            <ItemID>031</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="no" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="yes" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="yes" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>032</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>5</RegularSellPrice>
+            <Description>Qual 3</Description>
+            <ItemID>032</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>032</POSCode>
+            <POSCodeModifier name="Test Type">1</POSCodeModifier>
+            <InventoryItemID />
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>10</RegularSellPrice>
+            <Description>Qualifier 3</Description>
+            <ItemID>032</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="yes" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="no" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="yes" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>033</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>5</RegularSellPrice>
+            <Description>Qual 4</Description>
+            <ItemID>033</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>033</POSCode>
+            <POSCodeModifier name="Test Type">1</POSCodeModifier>
+            <InventoryItemID />
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>10</RegularSellPrice>
+            <Description>Qualifier 4</Description>
+            <ItemID>033</ItemID>
+            <ItemType>
+               <ItemTypeCode>fees</ItemTypeCode>
+               <ItemTypeSubCode>fees</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="yes" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>034</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>5</RegularSellPrice>
+            <Description>Qual 5</Description>
+            <ItemID>034</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>034</POSCode>
+            <POSCodeModifier name="Test Type">1</POSCodeModifier>
+            <InventoryItemID />
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>10</RegularSellPrice>
+            <Description>Qualifier 5</Description>
+            <ItemID>034</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="yes" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="yes" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>035</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>10</RegularSellPrice>
+            <Description>Qual 6</Description>
+            <ItemID>035</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>035</POSCode>
+            <POSCodeModifier name="Test Type">1</POSCodeModifier>
+            <InventoryItemID />
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>5</RegularSellPrice>
+            <Description>Qualifier 6</Description>
+            <ItemID>035</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="yes" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="yes" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>036</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>10</RegularSellPrice>
+            <Description>Qual 7</Description>
+            <ItemID>036</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>036</POSCode>
+            <POSCodeModifier name="Test Type">1</POSCodeModifier>
+            <InventoryItemID />
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>5</RegularSellPrice>
+            <Description>Qualifier 7</Description>
+            <ItemID>036</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="yes" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>037</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>10</RegularSellPrice>
+            <Description>Qual 8</Description>
+            <ItemID>037</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>037</POSCode>
+            <POSCodeModifier name="Test Type">1</POSCodeModifier>
+            <InventoryItemID />
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>5</RegularSellPrice>
+            <Description>Qualifier 8</Description>
+            <ItemID>037</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="no" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="yes" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="no" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>040</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>10</RegularSellPrice>
+            <Description>Tax 1</Description>
+            <ItemID>040</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>101</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>050</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>2</MerchandiseCode>
+            <RegularSellPrice>5</RegularSellPrice>
+            <Description>Negative Item</Description>
+            <ItemID>050</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>1</POSCode>
+            <POSCodeModifier>0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>1</MerchandiseCode>
+            <RegularSellPrice>0.01</RegularSellPrice>
+            <Description>Generic Item</Description>
+            <ItemID>1</ItemID>
+            <ItemType>
+               <ItemTypeCode>mdse</ItemTypeCode>
+               <ItemTypeSubCode>mdse</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>400</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="yes" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="yes" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>99</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="no" />
+            <QuantityAllowedFlg value="yes" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>30001</POSCode>
+            <POSCodeModifier name="Carwash 1">0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>88888</MerchandiseCode>
+            <RegularSellPrice>2.5</RegularSellPrice>
+            <Description>Carwash 1</Description>
+            <ItemID>30001</ItemID>
+            <ItemType>
+               <ItemTypeCode>carwash</ItemTypeCode>
+               <ItemTypeSubCode>carwash</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>102</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="no" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="no" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>100</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="yes" />
+            <QuantityAllowedFlg value="no" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>30002</POSCode>
+            <POSCodeModifier name="Carwash 2">0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>88888</MerchandiseCode>
+            <RegularSellPrice>4</RegularSellPrice>
+            <Description>Carwash 2</Description>
+            <ItemID>30002</ItemID>
+            <ItemType>
+               <ItemTypeCode>carwash</ItemTypeCode>
+               <ItemTypeSubCode>carwash</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>102</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="no" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="no" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>0</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="yes" />
+            <QuantityAllowedFlg value="no" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>30003</POSCode>
+            <POSCodeModifier name="Carwash 3">0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>88888</MerchandiseCode>
+            <RegularSellPrice>6</RegularSellPrice>
+            <Description>Carwash 3</Description>
+            <ItemID>30003</ItemID>
+            <ItemType>
+               <ItemTypeCode>carwash</ItemTypeCode>
+               <ItemTypeSubCode>carwash</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>102</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="no" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="no" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>0</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="yes" />
+            <QuantityAllowedFlg value="no" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+      <ITTDetail>
+         <RecordAction type="addchange" />
+         <ItemCode>
+            <POSCodeFormat format="plu" />
+            <POSCode>30004</POSCode>
+            <POSCodeModifier name="Carwash 4">0</POSCodeModifier>
+         </ItemCode>
+         <ITTData>
+            <ActiveFlag value="yes" />
+            <MerchandiseCode>88888</MerchandiseCode>
+            <RegularSellPrice>7.5</RegularSellPrice>
+            <Description>Carwash 4</Description>
+            <ItemID>30004</ItemID>
+            <ItemType>
+               <ItemTypeCode>carwash</ItemTypeCode>
+               <ItemTypeSubCode>carwash</ItemTypeSubCode>
+            </ItemType>
+            <PaymentSystemsProductCode>102</PaymentSystemsProductCode>
+            <SalesRestriction>
+               <SalesRestrictFlag value="no" type="allowFractionalQuantity" />
+               <SalesRestrictFlag value="no" type="allowQuantity" />
+               <SalesRestrictFlag value="no" type="forcePriceEntry" />
+               <SalesRestrictFlag value="yes" type="prohibitFoodStamp" />
+               <SalesRestrictFlag value="no" type="prohibitRefund" />
+               <ProhibitDiscountFlag value="no" />
+            </SalesRestriction>
+            <SellingUnits>1</SellingUnits>
+            <TaxStrategyID>101</TaxStrategyID>
+            <PriceRequiredFlg value="no" />
+            <PricingGroup>0</PricingGroup>
+            <FoodStampableFlg value="no" />
+            <DiscountableFlg value="yes" />
+            <QuantityAllowedFlg value="no" />
+            <QuantityRequiredFlg value="no" />
+         </ITTData>
+      </ITTDetail>
+   </ItemMaintenance>
+   <StoreOptionsMaintenance>
+      <StoreOptionsDetaill>
+         <InvalidSignOnAttempts>3</InvalidSignOnAttempts>
+         <PasswordRequired>1</PasswordRequired>
+         <PasswordExpiresInXDays>0</PasswordExpiresInXDays>
+         <PasswordReuse>0</PasswordReuse>
+         <MinPasswordLength>2</MinPasswordLength>
+         <MaxPasswordLength>20</MaxPasswordLength>
+         <GenericPassword>1234567</GenericPassword>
+         <PrintVerificationIndicatorOnReceipt>0</PrintVerificationIndicatorOnReceipt>
+         <AcceptExpiredDriverLicense>0</AcceptExpiredDriverLicense>
+         <AllowManualEntryOfDOB>1</AllowManualEntryOfDOB>
+         <DefaultSystemLanguage>1</DefaultSystemLanguage>
+         <DefaultSystemCurrency>1</DefaultSystemCurrency>
+         <UseNameandAddforReceipt>0</UseNameandAddforReceipt>
+         <RemoteAccessPasswordType>0</RemoteAccessPasswordType>
+         <RemoteAccessPasswordNumericOverride>0</RemoteAccessPasswordNumericOverride>
+         <RemoteAccessEnhanced>0</RemoteAccessEnhanced>
+         <CouponsAreAssocWithInDept>1</CouponsAreAssocWithInDept>
+         <DeptWhichStoreCouponsAssocWith>CPN99999</DeptWhichStoreCouponsAssocWith>
+         <DescriptionForTaxTotalLine>Tax</DescriptionForTaxTotalLine>
+         <SuppressFees>0</SuppressFees>
+         <StoreThemeIdentifier>1</StoreThemeIdentifier>
+         <DaysWorthofDetailedSales>7</DaysWorthofDetailedSales>
+         <DaysWorthofElecJournal>30</DaysWorthofElecJournal>
+         <DaysWorthofAvailReceipts>7</DaysWorthofAvailReceipts>
+         <HaltStoreCloseforSuspends>0</HaltStoreCloseforSuspends>
+         <PrintJustTaxTotal>2</PrintJustTaxTotal>
+         <AllowSalesNOFItems>1</AllowSalesNOFItems>
+         <PouchColors>Black</PouchColors>
+         <TaxInvoiceText />
+         <TaxNumber />
+         <TaxNumberDescription />
+         <DoNotPrintTaxTotalIfEqualsZero>0</DoNotPrintTaxTotalIfEqualsZero>
+         <NetworkJournalPrinterInstalled>0</NetworkJournalPrinterInstalled>
+         <DaysWorthofNetworkJournalEntries>7</DaysWorthofNetworkJournalEntries>
+         <AllowDefaultButtonForAgeRestrictedSales>1</AllowDefaultButtonForAgeRestrictedSales>
+         <DaysWorthofSystemEvents>365</DaysWorthofSystemEvents>
+         <DaysWorthofSCReports>0</DaysWorthofSCReports>
+         <AllowRemotePrepay>1</AllowRemotePrepay>
+         <EnableClockInOut>0</EnableClockInOut>
+         <ReqClockInReason>0</ReqClockInReason>
+         <ClockInReasonsMaintenanceDetail />
+         <PrintClockInReceipt>0</PrintClockInReceipt>
+         <MaxValueforCoupon>1</MaxValueforCoupon>
+         <PriceEmbeddedBarcodeCheckBox>True</PriceEmbeddedBarcodeCheckBox>
+         <PriceEmbeddedBarcodeLength>4</PriceEmbeddedBarcodeLength>
+      </StoreOptionsDetaill>
+   </StoreOptionsMaintenance>
+   <SpeedKeyMaintenance>
+      <SpeedKeyMenu menuID="1" storeID="1" level="1">
+         <Description languageCode="1" sequenceNumber="1">Default</Description>
+         <StartTime>01/01/1900</StartTime>
+         <EndTime>01/01/1900</EndTime>
+         <SpeedMenuKeys pageNumber="1" position="1">
+            <ItemID>1</ItemID>
+            <Description languageCode="1" sequenceNumber="1">Generic Item</Description>
+            <IconFileName />
+         </SpeedMenuKeys>
+         <SpeedMenuKeys pageNumber="1" position="2">
+            <ItemID>001</ItemID>
+            <Description languageCode="1" sequenceNumber="1">Item 1</Description>
+            <IconFileName />
+         </SpeedMenuKeys>
+         <SpeedMenuKeys pageNumber="1" position="3">
+            <ItemID>002</ItemID>
+            <Description languageCode="1" sequenceNumber="1">Item 2</Description>
+            <IconFileName />
+         </SpeedMenuKeys>
+         <SpeedMenuKeys pageNumber="1" position="4">
+            <ItemID>003</ItemID>
+            <Description languageCode="1" sequenceNumber="1">Item 3</Description>
+            <IconFileName />
+         </SpeedMenuKeys>
+         <SpeedMenuKeys pageNumber="1" position="5">
+            <ItemID>004</ItemID>
+            <Description languageCode="1" sequenceNumber="1">Item 4</Description>
+            <IconFileName />
+         </SpeedMenuKeys>
+         <SpeedMenuKeys pageNumber="1" position="6">
+            <ItemID>005</ItemID>
+            <Description languageCode="1" sequenceNumber="1">Item 5</Description>
+            <IconFileName />
+         </SpeedMenuKeys>
+         <SpeedMenuKeys pageNumber="1" position="7">
+            <ItemID>006</ItemID>
+            <Description languageCode="1" sequenceNumber="1">Item 6</Description>
+            <IconFileName />
+         </SpeedMenuKeys>
+         <SpeedMenuKeys pageNumber="1" position="8">
+            <ItemID>007</ItemID>
+            <Description languageCode="1" sequenceNumber="1">Item 7</Description>
+            <IconFileName />
+         </SpeedMenuKeys>
+         <SpeedMenuKeys pageNumber="1" position="9">
+            <ItemID>008</ItemID>
+            <Description languageCode="1" sequenceNumber="1">Item 8</Description>
+            <IconFileName />
+         </SpeedMenuKeys>
+         <SpeedMenuKeys pageNumber="1" position="10">
+            <ItemID>009</ItemID>
+            <Description languageCode="1" sequenceNumber="1">Item 9</Description>
+            <IconFileName />
+         </SpeedMenuKeys>
+         <SpeedMenuKeys pageNumber="1" position="11">
+            <ItemID>010</ItemID>
+            <Description languageCode="1" sequenceNumber="1">Item 10</Description>
+            <IconFileName />
+         </SpeedMenuKeys>
+         <SpeedMenuKeys pageNumber="1" position="12">
+            <ItemID>011</ItemID>
+            <Description languageCode="1" sequenceNumber="1">Item 11</Description>
+            <IconFileName />
+         </SpeedMenuKeys>
+         <SpeedMenuKeys pageNumber="1" position="13">
+            <ItemID>1234</ItemID>
+            <Description languageCode="1" sequenceNumber="1">Car Wash</Description>
+            <IconFileName />
+         </SpeedMenuKeys>
+         <SpeedMenuKeys pageNumber="1" position="14">
+            <ItemID>5678</ItemID>
+            <Description languageCode="1" sequenceNumber="1">ReWash</Description>
+            <IconFileName />
+         </SpeedMenuKeys>
+         <SpeedMenuKeys pageNumber="1" position="15">
+            <ItemID>050</ItemID>
+            <Description languageCode="1" sequenceNumber="1">Negative Item</Description>
+            <IconFileName />
+         </SpeedMenuKeys>
+         <SpeedMenuKeys pageNumber="1" position="16">
+            <ItemID>040</ItemID>
+            <Description languageCode="1" sequenceNumber="1">Tax 1</Description>
+            <IconFileName />
+         </SpeedMenuKeys>
+      </SpeedKeyMenu>
+   </SpeedKeyMaintenance>
+   <RegisterGroupMaintenance>
+      <RegisterGroupIDDetail>
+         <RegisterGroupID>1</RegisterGroupID>
+         <RegisterGroupDescription languageCode="1" sequenceNumber="1">POSGroup1</RegisterGroupDescription>
+         <AllowFuelSaleAndAuthorization>1</AllowFuelSaleAndAuthorization>
+         <AllowRefundAndSaleInSameTransaction>0</AllowRefundAndSaleInSameTransaction>
+         <UsePromotionalPricingForRefunds>0</UsePromotionalPricingForRefunds>
+         <AllowReturns>1</AllowReturns>
+         <AllowSales>1</AllowSales>
+         <AllowSuspendResume>1</AllowSuspendResume>
+         <CustomerDisplay languageCode="1" sequenceNumber="1">Customer display</CustomerDisplay>
+         <DisplayPLU>0</DisplayPLU>
+         <FirstSafeDropAmount>100</FirstSafeDropAmount>
+         <LogOffIdleDuration>0</LogOffIdleDuration>
+         <RemainSignedOn>1</RemainSignedOn>
+         <MaxLineAmount>50</MaxLineAmount>
+         <MaxLineQuantity>25</MaxLineQuantity>
+         <MaxRefundAmount>50</MaxRefundAmount>
+         <MaxTransactionAmount>100000</MaxTransactionAmount>
+         <MaxTransactionItems>100</MaxTransactionItems>
+         <MaxAmountSingleLineItem>9999</MaxAmountSingleLineItem>
+         <OpeningBalanceAmount>50</OpeningBalanceAmount>
+         <OpeningBalanceModeOption>2</OpeningBalanceModeOption>
+         <OperatorWillEnterPouchNumberAtFirstSignon>0</OperatorWillEnterPouchNumberAtFirstSignon>
+         <SuppressOpenCloseTillCounts>0</SuppressOpenCloseTillCounts>
+         <PrintReceipt>0</PrintReceipt>
+         <PromptForPouchColor>0</PromptForPouchColor>
+         <PromptForPouchNumber>1</PromptForPouchNumber>
+         <ReceiptFooter languageCode="1" sequenceNumber="1">Footer</ReceiptFooter>
+         <ReceiptHeader languageCode="1" sequenceNumber="1">Header</ReceiptHeader>
+         <ReceiptFooterAlignment>2</ReceiptFooterAlignment>
+         <ReceiptHeaderAlignment>2</ReceiptHeaderAlignment>
+         <ScrollCustomerDisplay>0</ScrollCustomerDisplay>
+         <SecondSafeDropAmount>200</SecondSafeDropAmount>
+         <SecondsToDisplayChange>5</SecondsToDisplayChange>
+         <SecuredTimeoutDuration>0</SecuredTimeoutDuration>
+         <ShowSafeDropWarning>1</ShowSafeDropWarning>
+         <WaitCashDrawerClose>1</WaitCashDrawerClose>
+         <HighlightFirstItemInQualifierList>0</HighlightFirstItemInQualifierList>
+         <PrimarySpeedKeyMenu>1</PrimarySpeedKeyMenu>
+         <ShowEnhancedDispenserGUI>1</ShowEnhancedDispenserGUI>
+         <DispenserRangeEnabled>0</DispenserRangeEnabled>
+         <DispenserStartRange>0</DispenserStartRange>
+         <DispenserStopRange>0</DispenserStopRange>
+         <ShowSpeedKeyMenuatSignOn>1</ShowSpeedKeyMenuatSignOn>
+         <SafeDropPromptingModeLumporItemized>1</SafeDropPromptingModeLumporItemized>
+         <PackQtyPriorToScan>0</PackQtyPriorToScan>
+         <PerformSignatureVerification>0</PerformSignatureVerification>
+         <RegisterGroupReasonRequiredDetail>
+            <RegisterGroupApplicationID>1</RegisterGroupApplicationID>
+            <RegisterGroupFunctionID>4</RegisterGroupFunctionID>
+            <RegisterGroupRequireReasonCode>1</RegisterGroupRequireReasonCode>
+         </RegisterGroupReasonRequiredDetail>
+         <RegisterGroupReasonRequiredDetail>
+            <RegisterGroupApplicationID>1</RegisterGroupApplicationID>
+            <RegisterGroupFunctionID>28015</RegisterGroupFunctionID>
+            <RegisterGroupRequireReasonCode>1</RegisterGroupRequireReasonCode>
+         </RegisterGroupReasonRequiredDetail>
+         <RegisterGroupReasonRequiredDetail>
+            <RegisterGroupApplicationID>1</RegisterGroupApplicationID>
+            <RegisterGroupFunctionID>28017</RegisterGroupFunctionID>
+            <RegisterGroupRequireReasonCode>1</RegisterGroupRequireReasonCode>
+         </RegisterGroupReasonRequiredDetail>
+         <RegisterGroupReasonRequiredDetail>
+            <RegisterGroupApplicationID>1</RegisterGroupApplicationID>
+            <RegisterGroupFunctionID>28018</RegisterGroupFunctionID>
+            <RegisterGroupRequireReasonCode>1</RegisterGroupRequireReasonCode>
+         </RegisterGroupReasonRequiredDetail>
+         <RegisterGroupReasonDetail>
+            <RegisterGroupApplicationID>1</RegisterGroupApplicationID>
+            <RegisterGroupFunctionID>4</RegisterGroupFunctionID>
+            <RegisterGroupReasonCode>3</RegisterGroupReasonCode>
+         </RegisterGroupReasonDetail>
+         <RegisterGroupReasonDetail>
+            <RegisterGroupApplicationID>1</RegisterGroupApplicationID>
+            <RegisterGroupFunctionID>28015</RegisterGroupFunctionID>
+            <RegisterGroupReasonCode>3</RegisterGroupReasonCode>
+         </RegisterGroupReasonDetail>
+         <RegisterGroupReasonDetail>
+            <RegisterGroupApplicationID>1</RegisterGroupApplicationID>
+            <RegisterGroupFunctionID>28017</RegisterGroupFunctionID>
+            <RegisterGroupReasonCode>3</RegisterGroupReasonCode>
+         </RegisterGroupReasonDetail>
+         <RegisterGroupReasonDetail>
+            <RegisterGroupApplicationID>1</RegisterGroupApplicationID>
+            <RegisterGroupFunctionID>28018</RegisterGroupFunctionID>
+            <RegisterGroupReasonCode>3</RegisterGroupReasonCode>
+         </RegisterGroupReasonDetail>
+      </RegisterGroupIDDetail>
+      <RegisterGroupIDDetail>
+         <RegisterGroupID>2</RegisterGroupID>
+         <RegisterGroupDescription languageCode="1" sequenceNumber="1">POSGroup2</RegisterGroupDescription>
+         <AllowFuelSaleAndAuthorization>1</AllowFuelSaleAndAuthorization>
+         <AllowRefundAndSaleInSameTransaction>0</AllowRefundAndSaleInSameTransaction>
+         <UsePromotionalPricingForRefunds>0</UsePromotionalPricingForRefunds>
+         <AllowReturns>1</AllowReturns>
+         <AllowSales>1</AllowSales>
+         <AllowSuspendResume>1</AllowSuspendResume>
+         <CustomerDisplay languageCode="1" sequenceNumber="1" />
+         <DisplayPLU>0</DisplayPLU>
+         <FirstSafeDropAmount>100</FirstSafeDropAmount>
+         <LogOffIdleDuration>0</LogOffIdleDuration>
+         <RemainSignedOn>1</RemainSignedOn>
+         <MaxLineAmount>50</MaxLineAmount>
+         <MaxLineQuantity>25</MaxLineQuantity>
+         <MaxRefundAmount>50</MaxRefundAmount>
+         <MaxTransactionAmount>100000</MaxTransactionAmount>
+         <MaxTransactionItems>100</MaxTransactionItems>
+         <MaxAmountSingleLineItem>9999</MaxAmountSingleLineItem>
+         <OpeningBalanceAmount>50</OpeningBalanceAmount>
+         <OpeningBalanceModeOption>2</OpeningBalanceModeOption>
+         <OperatorWillEnterPouchNumberAtFirstSignon>0</OperatorWillEnterPouchNumberAtFirstSignon>
+         <SuppressOpenCloseTillCounts>0</SuppressOpenCloseTillCounts>
+         <PrintReceipt>0</PrintReceipt>
+         <PromptForPouchColor>0</PromptForPouchColor>
+         <PromptForPouchNumber>1</PromptForPouchNumber>
+         <ReceiptFooter languageCode="1" sequenceNumber="1" />
+         <ReceiptHeader languageCode="1" sequenceNumber="1" />
+         <ReceiptFooterAlignment>2</ReceiptFooterAlignment>
+         <ReceiptHeaderAlignment>2</ReceiptHeaderAlignment>
+         <ScrollCustomerDisplay>0</ScrollCustomerDisplay>
+         <SecondSafeDropAmount>200</SecondSafeDropAmount>
+         <SecondsToDisplayChange>5</SecondsToDisplayChange>
+         <SecuredTimeoutDuration>300</SecuredTimeoutDuration>
+         <ShowSafeDropWarning>1</ShowSafeDropWarning>
+         <WaitCashDrawerClose>1</WaitCashDrawerClose>
+         <HighlightFirstItemInQualifierList>0</HighlightFirstItemInQualifierList>
+         <PrimarySpeedKeyMenu>1</PrimarySpeedKeyMenu>
+         <ShowEnhancedDispenserGUI>1</ShowEnhancedDispenserGUI>
+         <DispenserRangeEnabled>0</DispenserRangeEnabled>
+         <DispenserStartRange>0</DispenserStartRange>
+         <DispenserStopRange>0</DispenserStopRange>
+         <ShowSpeedKeyMenuatSignOn>1</ShowSpeedKeyMenuatSignOn>
+         <SafeDropPromptingModeLumporItemized>1</SafeDropPromptingModeLumporItemized>
+         <PackQtyPriorToScan>0</PackQtyPriorToScan>
+         <PerformSignatureVerification>0</PerformSignatureVerification>
+      </RegisterGroupIDDetail>
+   </RegisterGroupMaintenance>
+   <LocalAccountMaintenance>
+      <LocalAccountMaintenanceDetail>
+         <LocalAccountID>1</LocalAccountID>
+         <AccountType>F</AccountType>
+         <VatCode>1234</VatCode>
+         <AccountName>DG, Inc.</AccountName>
+         <StreetAddress>7300 West Friendly Ave</StreetAddress>
+         <City>Greensboro</City>
+         <State>NC</State>
+         <ZipCode>27420</ZipCode>
+         <Country>United States</Country>
+         <PhoneNumber>8008007498</PhoneNumber>
+         <EmailAddress>gilbarco@gilbarco.com</EmailAddress>
+         <PrintCurrentBalanceOnCustReceipt>0</PrintCurrentBalanceOnCustReceipt>
+         <FixedAmount>0</FixedAmount>
+         <HoldLimit>500</HoldLimit>
+         <WarningLimit>450</WarningLimit>
+         <FloorLimit>100</FloorLimit>
+         <CurrentAmt>0</CurrentAmt>
+         <CardTrack>0</CardTrack>
+         <CardIssuerNumberPosition>0</CardIssuerNumberPosition>
+         <CardIssuerNumber />
+         <CardAccountNumberPosition>0</CardAccountNumberPosition>
+         <CardAccountNumberRangeStart />
+         <CardAccountNumberRangeEnd />
+         <CardExpDatePosition>0</CardExpDatePosition>
+         <CardExpDateFormat>YYMM</CardExpDateFormat>
+         <CardValidateExpDate>False</CardValidateExpDate>
+         <CardForFuelOnly>False</CardForFuelOnly>
+         <CardFuelOnlyPosition>0</CardFuelOnlyPosition>
+         <CardFuelOnlyCode>0</CardFuelOnlyCode>
+         <CardCrindAuthAmount>0</CardCrindAuthAmount>
+         <PromptDetails />
+         <CustomPrompts />
+         <NegativeFiles />
+         <SubAccountDetails>
+            <SubAccountID>00000000000</SubAccountID>
+            <SubAccountName>aDescription</SubAccountName>
+            <VehicleIdentificationNo>aVehicleRegNo</VehicleIdentificationNo>
+            <SubAccountEnabled>1</SubAccountEnabled>
+         </SubAccountDetails>
+      </LocalAccountMaintenanceDetail>
+      <LocalAccountMaintenanceDetail>
+         <LocalAccountID>2</LocalAccountID>
+         <AccountType>F</AccountType>
+         <VatCode>5678</VatCode>
+         <AccountName>KK Company</AccountName>
+         <StreetAddress />
+         <City />
+         <State />
+         <ZipCode />
+         <Country />
+         <PhoneNumber />
+         <EmailAddress />
+         <PrintCurrentBalanceOnCustReceipt>1</PrintCurrentBalanceOnCustReceipt>
+         <FixedAmount>0</FixedAmount>
+         <HoldLimit>200</HoldLimit>
+         <WarningLimit>190</WarningLimit>
+         <FloorLimit>0</FloorLimit>
+         <CurrentAmt>0</CurrentAmt>
+         <CardTrack>0</CardTrack>
+         <CardIssuerNumberPosition>0</CardIssuerNumberPosition>
+         <CardIssuerNumber />
+         <CardAccountNumberPosition>0</CardAccountNumberPosition>
+         <CardAccountNumberRangeStart />
+         <CardAccountNumberRangeEnd />
+         <CardExpDatePosition>0</CardExpDatePosition>
+         <CardExpDateFormat>YYMM</CardExpDateFormat>
+         <CardValidateExpDate>False</CardValidateExpDate>
+         <CardForFuelOnly>False</CardForFuelOnly>
+         <CardFuelOnlyPosition>0</CardFuelOnlyPosition>
+         <CardFuelOnlyCode>0</CardFuelOnlyCode>
+         <CardCrindAuthAmount>0</CardCrindAuthAmount>
+         <PromptDetails />
+         <CustomPrompts />
+         <NegativeFiles />
+         <SubAccountDetails>
+            <SubAccountID>00000000000</SubAccountID>
+            <SubAccountName />
+            <VehicleIdentificationNo />
+            <SubAccountEnabled>1</SubAccountEnabled>
+         </SubAccountDetails>
+         <SubAccountDetails>
+            <SubAccountID>00000000001</SubAccountID>
+            <SubAccountName />
+            <VehicleIdentificationNo />
+            <SubAccountEnabled>1</SubAccountEnabled>
+         </SubAccountDetails>
+      </LocalAccountMaintenanceDetail>
+      <LocalAccountMaintenanceDetail>
+         <LocalAccountID>3</LocalAccountID>
+         <AccountType>F</AccountType>
+         <VatCode>9999</VatCode>
+         <AccountName>Ralph's Garage</AccountName>
+         <StreetAddress />
+         <City />
+         <State />
+         <ZipCode />
+         <Country />
+         <PhoneNumber />
+         <EmailAddress />
+         <PrintCurrentBalanceOnCustReceipt>0</PrintCurrentBalanceOnCustReceipt>
+         <FixedAmount>0</FixedAmount>
+         <HoldLimit>400</HoldLimit>
+         <WarningLimit>150</WarningLimit>
+         <FloorLimit>200</FloorLimit>
+         <CurrentAmt>0</CurrentAmt>
+         <CardTrack>0</CardTrack>
+         <CardIssuerNumberPosition>0</CardIssuerNumberPosition>
+         <CardIssuerNumber />
+         <CardAccountNumberPosition>0</CardAccountNumberPosition>
+         <CardAccountNumberRangeStart />
+         <CardAccountNumberRangeEnd />
+         <CardExpDatePosition>0</CardExpDatePosition>
+         <CardExpDateFormat>YYMM</CardExpDateFormat>
+         <CardValidateExpDate>False</CardValidateExpDate>
+         <CardForFuelOnly>False</CardForFuelOnly>
+         <CardFuelOnlyPosition>0</CardFuelOnlyPosition>
+         <CardFuelOnlyCode>0</CardFuelOnlyCode>
+         <CardCrindAuthAmount>0</CardCrindAuthAmount>
+         <PromptDetails />
+         <CustomPrompts />
+         <NegativeFiles />
+         <SubAccountDetails>
+            <SubAccountID>00000000000</SubAccountID>
+            <SubAccountName />
+            <VehicleIdentificationNo />
+            <SubAccountEnabled>0</SubAccountEnabled>
+         </SubAccountDetails>
+      </LocalAccountMaintenanceDetail>
+      <LocalAccountMaintenanceDetail>
+         <LocalAccountID>8675309</LocalAccountID>
+         <AccountType>C</AccountType>
+         <VatCode />
+         <AccountName>Bob's Tires</AccountName>
+         <StreetAddress>1234 Wonton St.</StreetAddress>
+         <City>Beijing</City>
+         <State>LaLa Land</State>
+         <ZipCode>33304</ZipCode>
+         <Country>China</Country>
+         <PhoneNumber>5554342732</PhoneNumber>
+         <EmailAddress>WontonsRGud@yahoo.com</EmailAddress>
+         <PrintCurrentBalanceOnCustReceipt>0</PrintCurrentBalanceOnCustReceipt>
+         <FixedAmount>0</FixedAmount>
+         <HoldLimit>20000</HoldLimit>
+         <WarningLimit>5000</WarningLimit>
+         <FloorLimit>0</FloorLimit>
+         <CurrentAmt>0</CurrentAmt>
+         <CardTrack>2</CardTrack>
+         <CardIssuerNumberPosition>1</CardIssuerNumberPosition>
+         <CardIssuerNumber>000019</CardIssuerNumber>
+         <CardAccountNumberPosition>7</CardAccountNumberPosition>
+         <CardAccountNumberRangeStart>0000000000000001</CardAccountNumberRangeStart>
+         <CardAccountNumberRangeEnd>9999999999999999</CardAccountNumberRangeEnd>
+         <CardExpDatePosition>0</CardExpDatePosition>
+         <CardExpDateFormat>YYMM</CardExpDateFormat>
+         <CardValidateExpDate>False</CardValidateExpDate>
+         <CardForFuelOnly>False</CardForFuelOnly>
+         <CardFuelOnlyPosition>0</CardFuelOnlyPosition>
+         <CardFuelOnlyCode>0</CardFuelOnlyCode>
+         <CardCrindAuthAmount>150</CardCrindAuthAmount>
+         <PromptDetails />
+         <CustomPrompts />
+         <NegativeFiles />
+         <SubAccountDetails>
+            <SubAccountID>00000000000</SubAccountID>
+            <SubAccountName />
+            <VehicleIdentificationNo />
+            <SubAccountEnabled>1</SubAccountEnabled>
+         </SubAccountDetails>
+      </LocalAccountMaintenanceDetail>
+   </LocalAccountMaintenance>
+   <AccountingOptionsMaintenance>
+      <AccountingOptionsDetail>
+         <BlindBalance>1</BlindBalance>
+         <TillRecountLimit>3</TillRecountLimit>
+         <ViewPreviousCounts>0</ViewPreviousCounts>
+      </AccountingOptionsDetail>
+      <AccountingOptionsSafeDetail>
+         <AccountingAssetID accountingSafeId="1">Main Safe</AccountingAssetID>
+      </AccountingOptionsSafeDetail>
+      <AccountingOptionsTenderVarDetail>
+         <AccountingTenderVarAmt accountingTenderCode="1">0</AccountingTenderVarAmt>
+         <AccountingTenderVarAmt accountingTenderCode="2">0</AccountingTenderVarAmt>
+         <AccountingTenderVarAmt accountingTenderCode="3">0</AccountingTenderVarAmt>
+         <AccountingTenderVarAmt accountingTenderCode="4">0</AccountingTenderVarAmt>
+         <AccountingTenderVarAmt accountingTenderCode="5">0</AccountingTenderVarAmt>
+         <AccountingTenderVarAmt accountingTenderCode="201">0</AccountingTenderVarAmt>
+      </AccountingOptionsTenderVarDetail>
+   </AccountingOptionsMaintenance>
+   <PaidInPaidOutMaintenance>
+      <PaidInPaidOutMaintenanceDetail>
+         <PaidInPaidOutAccountID>1</PaidInPaidOutAccountID>
+         <PaidInPaidOutAccountName languageCode="1" sequenceNumber="1">IncomeAcct</PaidInPaidOutAccountName>
+         <PaidInPaidOutAccountType>1</PaidInPaidOutAccountType>
+         <PaidInPaidOutTenderTransfers>0</PaidInPaidOutTenderTransfers>
+      </PaidInPaidOutMaintenanceDetail>
+      <PaidInPaidOutMaintenanceDetail>
+         <PaidInPaidOutAccountID>2</PaidInPaidOutAccountID>
+         <PaidInPaidOutAccountName languageCode="1" sequenceNumber="1">ExpenseAcct</PaidInPaidOutAccountName>
+         <PaidInPaidOutAccountType>2</PaidInPaidOutAccountType>
+         <PaidInPaidOutTenderTransfers>0</PaidInPaidOutTenderTransfers>
+      </PaidInPaidOutMaintenanceDetail>
+   </PaidInPaidOutMaintenance>
+   <CarWashMaintenance>
+      <CarWashMaintenanceCRINDOptions>
+         <CRINDCarWashPackagesPerScreen>6</CRINDCarWashPackagesPerScreen>
+         <CRINDWashPromptTimeout>20</CRINDWashPromptTimeout>
+         <CRINDPromptReminderTimeout>20</CRINDPromptReminderTimeout>
+         <CRINDWashPrompt>0</CRINDWashPrompt>
+         <CRINDMenuCustomerChoosesPackageNo>True</CRINDMenuCustomerChoosesPackageNo>
+         <CRINDCustomerSelectYesNoForEachPackage>False</CRINDCustomerSelectYesNoForEachPackage>
+      </CarWashMaintenanceCRINDOptions>
+      <CarWashCoinBoxOptions>
+         <CarWashCoinBoxID />
+      </CarWashCoinBoxOptions>
+      <CarWashMaintenanceOptionsDetail>
+         <AllowCarWashSales>0</AllowCarWashSales>
+         <CarWashPLU>1234</CarWashPLU>
+         <RewashPLU>5678</RewashPLU>
+         <DiscAvailableForUse>1</DiscAvailableForUse>
+         <DiscAllowedwithPrepayFuel>1</DiscAllowedwithPrepayFuel>
+         <ReceiptFooter1 languageCode="1" sequenceNumber="1">Receipt Footer #1</ReceiptFooter1>
+         <ReceiptFooter2 languageCode="1" sequenceNumber="1">Receipt Footer #2</ReceiptFooter2>
+         <DefaultExpiration>7</DefaultExpiration>
+         <WashType>3</WashType>
+         <PrintExpOnRcpt>1</PrintExpOnRcpt>
+         <BorderCharacter />
+         <MessageFontSize>Normal</MessageFontSize>
+         <MessageFontType>Bold</MessageFontType>
+         <CodeFontSize>Normal</CodeFontSize>
+         <CodeFontType>Bold</CodeFontType>
+         <InvertedPrint>0</InvertedPrint>
+         <IncreaseBorderCharWidth>0</IncreaseBorderCharWidth>
+      </CarWashMaintenanceOptionsDetail>
+      <CarWashPackageDetail>
+         <CarWashPackageID>1</CarWashPackageID>
+         <CarWashPackageDescription>Carwash 1</CarWashPackageDescription>
+         <CarWashPackagePrice>2.5</CarWashPackagePrice>
+         <CarWashAvailabilityCode>5</CarWashAvailabilityCode>
+         <CarWashPriceOverrideCode>0</CarWashPriceOverrideCode>
+         <CarWashSalesTax>0.5</CarWashSalesTax>
+         <CarWashBundlePackage>False</CarWashBundlePackage>
+         <CarWashBundlePackageID>0</CarWashBundlePackageID>
+         <CarWashBundleCount>0</CarWashBundleCount>
+         <CarWashBundleExpiration>0</CarWashBundleExpiration>
+         <CarWashCrindDisplayOrder>1</CarWashCrindDisplayOrder>
+         <CarWashKioskDisplayOrder>1</CarWashKioskDisplayOrder>
+         <CarWashPackageTaxType>0</CarWashPackageTaxType>
+         <CarWashPackageTaxGroupCode>100</CarWashPackageTaxGroupCode>
+      </CarWashPackageDetail>
+      <CarWashPackageDetail>
+         <CarWashPackageID>2</CarWashPackageID>
+         <CarWashPackageDescription>Carwash 2</CarWashPackageDescription>
+         <CarWashPackagePrice>4</CarWashPackagePrice>
+         <CarWashAvailabilityCode>5</CarWashAvailabilityCode>
+         <CarWashPriceOverrideCode>0</CarWashPriceOverrideCode>
+         <CarWashSalesTax>0</CarWashSalesTax>
+         <CarWashBundlePackage>False</CarWashBundlePackage>
+         <CarWashBundlePackageID>0</CarWashBundlePackageID>
+         <CarWashBundleCount>0</CarWashBundleCount>
+         <CarWashBundleExpiration>0</CarWashBundleExpiration>
+         <CarWashCrindDisplayOrder>2</CarWashCrindDisplayOrder>
+         <CarWashKioskDisplayOrder>2</CarWashKioskDisplayOrder>
+         <CarWashPackageTaxType>1</CarWashPackageTaxType>
+         <CarWashPackageTaxGroupCode>101</CarWashPackageTaxGroupCode>
+      </CarWashPackageDetail>
+      <CarWashPackageDetail>
+         <CarWashPackageID>3</CarWashPackageID>
+         <CarWashPackageDescription>Carwash 3</CarWashPackageDescription>
+         <CarWashPackagePrice>6</CarWashPackagePrice>
+         <CarWashAvailabilityCode>5</CarWashAvailabilityCode>
+         <CarWashPriceOverrideCode>0</CarWashPriceOverrideCode>
+         <CarWashSalesTax>0</CarWashSalesTax>
+         <CarWashBundlePackage>False</CarWashBundlePackage>
+         <CarWashBundlePackageID>0</CarWashBundlePackageID>
+         <CarWashBundleCount>0</CarWashBundleCount>
+         <CarWashBundleExpiration>0</CarWashBundleExpiration>
+         <CarWashCrindDisplayOrder>3</CarWashCrindDisplayOrder>
+         <CarWashKioskDisplayOrder>3</CarWashKioskDisplayOrder>
+         <CarWashPackageTaxType>1</CarWashPackageTaxType>
+         <CarWashPackageTaxGroupCode>101</CarWashPackageTaxGroupCode>
+      </CarWashPackageDetail>
+      <CarWashPackageDetail>
+         <CarWashPackageID>4</CarWashPackageID>
+         <CarWashPackageDescription>Carwash 4</CarWashPackageDescription>
+         <CarWashPackagePrice>7.5</CarWashPackagePrice>
+         <CarWashAvailabilityCode>5</CarWashAvailabilityCode>
+         <CarWashPriceOverrideCode>0</CarWashPriceOverrideCode>
+         <CarWashSalesTax>0</CarWashSalesTax>
+         <CarWashBundlePackage>False</CarWashBundlePackage>
+         <CarWashBundlePackageID>0</CarWashBundlePackageID>
+         <CarWashBundleCount>0</CarWashBundleCount>
+         <CarWashBundleExpiration>0</CarWashBundleExpiration>
+         <CarWashCrindDisplayOrder>4</CarWashCrindDisplayOrder>
+         <CarWashKioskDisplayOrder>4</CarWashKioskDisplayOrder>
+         <CarWashPackageTaxType>2</CarWashPackageTaxType>
+         <CarWashPackageTaxGroupCode>101</CarWashPackageTaxGroupCode>
+      </CarWashPackageDetail>
+      <CarWashDiscountDetail>
+         <CarWashDiscountName>Supreme Discount</CarWashDiscountName>
+         <CarWashDiscountAmount>1</CarWashDiscountAmount>
+         <CarWashFuelPurchaseSalesAmount>10</CarWashFuelPurchaseSalesAmount>
+         <CarWashFuelPurchaseVolumeAmount>999</CarWashFuelPurchaseVolumeAmount>
+         <CarWashDiscountCriteriaPackages>1</CarWashDiscountCriteriaPackages>
+         <CarWashDiscountCriteriaPackages>2</CarWashDiscountCriteriaPackages>
+         <CarWashDiscountCriteriaPackages>3</CarWashDiscountCriteriaPackages>
+         <CarWashDiscountCriteriaPackages>4</CarWashDiscountCriteriaPackages>
+         <CarWashDiscountCriteriaGrades>3</CarWashDiscountCriteriaGrades>
+         <CarWashDiscountCriteriaServiceLevels>1</CarWashDiscountCriteriaServiceLevels>
+      </CarWashDiscountDetail>
+   </CarWashMaintenance>
+   <BackOfficeMaintenance>
+      <SystemXMLInterface>4</SystemXMLInterface>
+      <XMLGenTLD>1</XMLGenTLD>
+      <XMLEnforceDTD>0</XMLEnforceDTD>
+      <XMLGenACK>0</XMLGenACK>
+      <InheiritXMLDeptChange>0</InheiritXMLDeptChange>
+      <DropUPCCheckDigit>-1</DropUPCCheckDigit>
+      <CombineTLDFiles>0</CombineTLDFiles>
+      <POSCodeModifier>0</POSCodeModifier>
+      <XMLAlertCashier>0</XMLAlertCashier>
+      <GenerateBatchSummaryTotals>0</GenerateBatchSummaryTotals>
+      <CalculateNetSales>0</CalculateNetSales>
+      <UseManifest>0</UseManifest>
+      <ArchiveTLDFiles>0</ArchiveTLDFiles>
+      <ArchiveDaysForTLDFiles>7</ArchiveDaysForTLDFiles>
+      <UseOriginalCashierId>0</UseOriginalCashierId>
+      <DefaultToFoodStampable>0</DefaultToFoodStampable>
+      <ProcessRecordCount>1</ProcessRecordCount>
+      <ProcessSleepTime>300</ProcessSleepTime>
+      <BackOfficeShare />
+      <BackOfficeShareInbound />
+      <BackOfficeUserName />
+      <MoveXMLFiles>0</MoveXMLFiles>
+      <PasswordEncrypted />
+      <BackOfficeDetail>
+         <XMLDocName>FGMBYLOYDISCREQV340</XMLDocName>
+         <XMLInterface>4</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Fuel Grade Movement by Loyalty Discount</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>FGMBYSELLPRICEREQV333</XMLDocName>
+         <XMLInterface>3</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Fuel Grade Movement by Actual Sell Price</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>FGMBYSELLPRICEREQV333</XMLDocName>
+         <XMLInterface>4</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Fuel Grade Movement by Actual Sell Price</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>FGMCASHIERREQUESTV320</XMLDocName>
+         <XMLInterface>2</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Fuel Grade Movement by Till</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>FGMCASHIERREQUESTV333</XMLDocName>
+         <XMLInterface>3</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Fuel Grade Movement by Till</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>FGMCASHIERREQUESTV333</XMLDocName>
+         <XMLInterface>4</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Fuel Grade Movement by Till</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>FGMEODBYPOSITIONREQUESTV320</XMLDocName>
+         <XMLInterface>2</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Fuel Grade Movement by Dispenser</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>FGMEODBYPOSITIONREQUESTV333</XMLDocName>
+         <XMLInterface>3</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Fuel Grade Movement by Dispenser</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>FGMEODBYPOSITIONREQUESTV333</XMLDocName>
+         <XMLInterface>4</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Fuel Grade Movement by Dispenser</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>FGMEODSHIFTREQUESTV320</XMLDocName>
+         <XMLInterface>2</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Fuel Grade Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>FGMEODSHIFTREQUESTV333</XMLDocName>
+         <XMLInterface>3</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Fuel Grade Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>FGMEODSHIFTREQUESTV333</XMLDocName>
+         <XMLInterface>4</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Fuel Grade Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>FPMBYPRODUCTREQV333</XMLDocName>
+         <XMLInterface>3</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Fuel Product Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>FPMBYPRODUCTREQV333</XMLDocName>
+         <XMLInterface>4</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Fuel Product Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>FUELGRADEMOVEMENTREQUESTV100</XMLDocName>
+         <XMLInterface>1</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Fuel Grade Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>ISMCASHIERREQUESTV320</XMLDocName>
+         <XMLInterface>2</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Item Sales Movement by Till</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>ISMCASHIERREQUESTV333</XMLDocName>
+         <XMLInterface>3</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Item Sales Movement by Till</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>ISMCASHIERREQUESTV333</XMLDocName>
+         <XMLInterface>4</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Item Sales Movement by Till</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>ISMEODSHIFTREQUESTV320</XMLDocName>
+         <XMLInterface>2</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Item Sales Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>ISMEODSHIFTREQUESTV333</XMLDocName>
+         <XMLInterface>3</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Item Sales Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>ISMEODSHIFTREQUESTV333</XMLDocName>
+         <XMLInterface>4</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Item Sales Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>ITEMSALESMOVEMENTREQUESTV100</XMLDocName>
+         <XMLInterface>1</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Item Sales Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>MCMCASHIERREQUESTV320</XMLDocName>
+         <XMLInterface>2</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Merchandise Code Movement by Till</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>MCMCASHIERREQUESTV333</XMLDocName>
+         <XMLInterface>3</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Merchandise Code Movement by Till</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>MCMCASHIERREQUESTV333</XMLDocName>
+         <XMLInterface>4</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Merchandise Code Movement by Till</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>MCMEODSHIFTREQUESTV320</XMLDocName>
+         <XMLInterface>2</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Merchandise Code Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>MCMEODSHIFTREQUESTV333</XMLDocName>
+         <XMLInterface>3</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Merchandise Code Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>MCMEODSHIFTREQUESTV333</XMLDocName>
+         <XMLInterface>4</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Merchandise Code Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>MERCHANDISECODEMOVEMENTREQUESTV100</XMLDocName>
+         <XMLInterface>1</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Merchandise Code Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>MISCSUMMARYMOVEMENTREQUESTV100</XMLDocName>
+         <XMLInterface>1</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Miscellaneous Summary Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>MSMCASHIERREQUESTV320</XMLDocName>
+         <XMLInterface>2</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Miscellaneous Summary Movement by Till</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>MSMCASHIERREQUESTV320</XMLDocName>
+         <XMLInterface>3</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Miscellaneous Summary Movement by Till</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>MSMCASHIERREQUESTV320</XMLDocName>
+         <XMLInterface>4</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Miscellaneous Summary Movement by Till</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>MSMEODSHIFTREQUESTV320</XMLDocName>
+         <XMLInterface>2</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Miscellaneous Summary Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>MSMEODSHIFTREQUESTV320</XMLDocName>
+         <XMLInterface>3</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Miscellaneous Summary Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>MSMEODSHIFTREQUESTV320</XMLDocName>
+         <XMLInterface>4</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Miscellaneous Summary Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>TANKPRODUCTINVENTORYREQUESTV100</XMLDocName>
+         <XMLInterface>1</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Tank Product Inventory Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>TAXLEVELMOVEMENTREQUESTV100</XMLDocName>
+         <XMLInterface>1</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Tax Level Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>TLMCASHIERREQUESTV320</XMLDocName>
+         <XMLInterface>2</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Tax Level Movement by Till</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>TLMCASHIERREQUESTV320</XMLDocName>
+         <XMLInterface>3</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Tax Level Movement by Till</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>TLMCASHIERREQUESTV320</XMLDocName>
+         <XMLInterface>4</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Tax Level Movement by Till</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>TLMEODSHIFTREQUESTV320</XMLDocName>
+         <XMLInterface>2</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Tax Level Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>TLMEODSHIFTREQUESTV320</XMLDocName>
+         <XMLInterface>3</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Tax Level Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>TLMEODSHIFTREQUESTV320</XMLDocName>
+         <XMLInterface>4</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Tax Level Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>TPMBYTANKREQV333</XMLDocName>
+         <XMLInterface>2</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Tank Product Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>TPMBYTANKREQV333</XMLDocName>
+         <XMLInterface>3</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Tank Product Movement</DocDescription>
+      </BackOfficeDetail>
+      <BackOfficeDetail>
+         <XMLDocName>TPMBYTANKREQV333</XMLDocName>
+         <XMLInterface>4</XMLInterface>
+         <StoreCloseFlag>0</StoreCloseFlag>
+         <ShiftCloseFlag>0</ShiftCloseFlag>
+         <DocDescription>Tank Product Movement</DocDescription>
+      </BackOfficeDetail>
+   </BackOfficeMaintenance>
+   <LoyaltyMaintenance>
+      <LoyaltyProviderConfiguration>
+         <LoyaltyProvider>
+            <LoyaltyProviderName>Kickback</LoyaltyProviderName>
+            <LoyaltyProviderType>Generic</LoyaltyProviderType>
+            <Enabled>No</Enabled>
+            <SiteIdentifier>SQA Test</SiteIdentifier>
+            <HostIPAddress>10.5.48.6</HostIPAddress>
+            <HostPortNumber>7900</HostPortNumber>
+            <AllowManualEntryOutside>TRUE</AllowManualEntryOutside>
+            <AllowCashierToAuthPrepayOnlyPump>FALSE</AllowCashierToAuthPrepayOnlyPump>
+            <AllowInstantRewardsOutside>TRUE</AllowInstantRewardsOutside>
+            <SendAllTransactionsToLoyaltyProvider>TRUE</SendAllTransactionsToLoyaltyProvider>
+            <ProtocolVersion>Gilbarco v1.0</ProtocolVersion>
+            <ReportsCutTime>00:00</ReportsCutTime>
+            <AllowTransponderEntry>FALSE</AllowTransponderEntry>
+            <LoyaltyVendor>Unknown</LoyaltyVendor>
+            <UsePaymentCards>No</UsePaymentCards>
+            <AlwaysPrintInsideLoyaltyReceipt>TRUE</AlwaysPrintInsideLoyaltyReceipt>
+            <AlwaysPrintOutsideLoyaltyReceipt>TRUE</AlwaysPrintOutsideLoyaltyReceipt>
+            <InsideOfflineReceiptLine1 />
+            <InsideOfflineReceiptLine2 />
+            <InsideOfflineReceiptLine3 />
+            <OutsideOfflineReceiptLine1 />
+            <OutsideOfflineReceiptLine2 />
+            <OutsideOfflineReceiptLine3 />
+            <POSPromptAtTender>Always</POSPromptAtTender>
+            <PromptForLoyaltyOfflineInside>FALSE</PromptForLoyaltyOfflineInside>
+            <PromptForLoyaltyOfflineOutside>FALSE</PromptForLoyaltyOfflineOutside>
+            <PromptCustomerToInsertCardOutside>TRUE</PromptCustomerToInsertCardOutside>
+            <LoyaltyMask>6034</LoyaltyMask>
+            <EnableTLS>No</EnableTLS>
+            <TLSCertificateName />
+            <OCSPMode>None</OCSPMode>
+         </LoyaltyProvider>
+      </LoyaltyProviderConfiguration>
+   </LoyaltyMaintenance>
+</PassportDataMaintenance>

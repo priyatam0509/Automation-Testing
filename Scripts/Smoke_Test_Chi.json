@@ -1,0 +1,8 @@
+{
+    "suite_name": "Chicago Smoke Test - Passport",
+    "suite_features": [
+        "SmokeTest_MWS_Chi.py",
+        "SmokeTest_POS_Chi.py"
+    ],
+    "initial_setup": false
+}

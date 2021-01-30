@@ -1,0 +1,12 @@
+{
+    "suite_name": "5 Loyalty Support",
+    "suite_features": [   
+        "Loyalty_Configuration.py",   
+        "Prepay_Loyalty.py",
+        "Loyalty_Prepay_Error.py",
+        "Postpay_Loyalty.py",
+        "Loyalty_Postpay_Error.py"
+    ],
+    "brand": "Exxon",
+    "type": "Passport"
+}

@@ -1,0 +1,10 @@
+{
+    "suite_name": "Giftcard verification for CITGO",
+    "suite_features": [
+        "Giftcard_Error.py",
+		"Giftcard_Test.py",
+        "Prepay_Giftcard.py",
+		"Postpay_Giftcard.py"
+    ]
+	
+}
